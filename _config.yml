@@ -146,10 +146,10 @@ events:
   - image: "/img/timeline/web-resp.png"
     date: "July 2017"
     description: "Started working on Weout project"
-#
-#  - image: "/img/timeline/inno-uni.jpg"
-#    date: "July 2017"
-#    description: "Worked on CashBackFriends project"
+
+  - image: "/img/timeline/web-development.png"
+    date: "July 2017"
+    description: " Started working on CashBackFriends project"
 
 #  - image: "/img/timeline/inno-uni.jpg"
 #    date: "June - July 2017"
