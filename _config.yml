@@ -31,8 +31,8 @@ force-https: False
 lang: "en"
 author: "Kenneth Nwafor"
 title: "Kenneth Nwafor"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Blog and website of Kenneth Nwafor, Developer and Data Scientist."
+keywords: "Kenneth, Nwafor, Data Science, Machine learning, blockchain"
 #favicon: "/img/favicon.ico"
 
 ################
@@ -51,8 +51,8 @@ dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
+type-speed: 1
+start-delay: 10
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The best way to get a project done faster is to start sooner."
@@ -169,7 +169,7 @@ events:
 
   - image: "/img/timeline/Robotics.jpg"
     date: "February 2016"
-    description: "Participated and won KFU Robotics Hackathon"
+    description: "Participated and won <a href='http://kpfu.ru/itis/primi-uchastie-v-hakatone-39intellektualnye-186972.html' target='_blank'>KFU ITIS Robotics Hackathon</a>"
 
   - image: "/img/timeline/inno-uni.jpg"
     date: "August 2015"
