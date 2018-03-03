@@ -13,7 +13,7 @@ domain-url: "https://ken-dev.info"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: ''
+baseurl: 'https://ken-dev.info'
 
 # Google tracking id
 
