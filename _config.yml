@@ -64,6 +64,7 @@ lines: # You can add HTML Tags in the Text
   - test: "It's OK to figure out murder mysteries, but you shouldn't need to figure out code. You should be able to read it."
   - text: "Plan to throw one (implementation) away; you will, anyhow."
   - text: "Before software can be reusable it first has to be usable."
+  - text: "If you don't strive to be in control, you will be under it, sooner or later."
 
 me-img: "/img/me.jpg"
 
@@ -129,7 +130,8 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "kenneth_chinedu"
+comments-enabled: True
 
 syntax-highlight: True
 
@@ -138,6 +140,17 @@ syntax-highlight: True
 ############
 
 events:
+
+  - image: "/img/timeline/cloud_innopolis.jpg"
+    date: "October 2017"
+    description: "Started working in the <a href='https://university.innopolis.ru/research/iis/cloud_lab/' target='_blank'> Cloud Systems Lab </a> of Innopolis University"
+
+  - image: "/img/timeline/wfys.jpg"
+    date: "October 2017"
+    description: "Attended <a href='http://futureteam.world' target='_blank'> World Festival of Youth and Students </a> in Sochi, Russia."
+    link:
+        url: events/2018/03/03/wfys2017.html
+        external: False
 
   - image: "/img/timeline/grad.jpg"
     date: "August 2017"
@@ -162,6 +175,9 @@ events:
   - image: "/img/timeline/ranepa.png"
     date: "July 2016"
     description: "Participated in prestigious <a href='http://www.campus4youth.com/' target='_blank'>RANEPA Summer Campus</a>"
+    link:
+      url: http://www.campus4youth.com/
+      external: True
 
   - image: "/img/timeline/intern.jpg"
     date: "June - September 2016"
@@ -194,7 +210,7 @@ email: "info@ken-dev.info"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: "Kenneth Nwafor is a Software Developer and an aspiring Data Scientist. He is also a Blockchain enthusiast. He loves to play ping pong in his free time."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -212,8 +228,8 @@ social:
     url: "https://www.linkedin.com/in/ken4scholars"
 #  - title: "bitcoin"
 #    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-#  - title: "rss"
-#    url: "/feed.xml"
+  - title: "rss"
+    url: "/feed.xml"
 
 ############
 # 404 page #
@@ -254,6 +270,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
