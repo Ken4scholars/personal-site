@@ -3,8 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://ken4scholars.github.io"
-domain-url: "https://ken-dev.info"
+url: "https://ken-dev.info"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -13,7 +12,7 @@ domain-url: "https://ken-dev.info"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: 'https://ken-dev.info'
+baseurl: ''
 
 # Google tracking id
 
