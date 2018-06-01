@@ -273,3 +273,5 @@ sass:
 plugins:
   - jekyll-paginate
   - jemoji
+
+destination: docs

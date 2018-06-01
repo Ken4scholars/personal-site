@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Kenneth Nwafor</title>
+		<description>Website and blog of Kenneth Nwafor - Developer and Data Scientist.</description>
+		<link>https://ken-dev.info</link>
+		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>WFYS 2017: Tale of a thrilled participant</title>
+				
+				
+					<description>&lt;p&gt;Since this is my first post on this blog, I figured I need to to give a little background info about myself.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 01 Jun 2018 00:00:00 +0300</pubDate>
+				<link>https://ken-dev.info/events/2018/06/01/wfys2017.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/events/2018/06/01/wfys2017.html</guid>
+			</item>
+		
+	</channel>
+</rss>
