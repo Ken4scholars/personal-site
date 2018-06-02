@@ -12,7 +12,7 @@ url: "https://ken-dev.info"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: ''
+baseurl: '/personal-site'
 
 # Google tracking id
 
@@ -32,7 +32,7 @@ lang: "en"
 author: "Kenneth Nwafor"
 title: "Kenneth Nwafor"
 description: "Website and blog of Kenneth Nwafor - Developer and Data Scientist."
-keywords: "Kenneth, Nwafor, Data Science, Machine learning, blockchain"
+keywords: "Tech, Data Science, Machine Learning, Blockchain, Python, Django"
 #favicon: "/img/favicon.ico"
 
 ################
@@ -149,7 +149,7 @@ events:
     date: "October 2017"
     description: "Attended <a href='http://futureteam.world' target='_blank'> World Festival of Youth and Students </a> in Sochi, Russia."
     link:
-        url: events/2018/03/03/wfys2017.html
+        url: events/2018/06/01/wfys2017.html
         external: False
 
   - image: "/img/timeline/grad.jpg"
