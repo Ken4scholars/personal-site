@@ -141,9 +141,14 @@ syntax-highlight: True
 
 events:
 
+  - image: "/img/timeline/floship.jpeg"
+    date: "April 2018"
+    description: "Started working as a Python Backend Developer in <a href='https://www.floship.com' target='_blank'>Floship</a>, a Hong Kong based E-commerce and logistics company."
+
+
   - image: "/img/timeline/cloud_innopolis.jpg"
     date: "October 2017"
-    description: "Started working in the <a href='https://university.innopolis.ru/research/iis/cloud_lab/' target='_blank'> Cloud Systems Lab </a> of Innopolis University"
+    description: "Started working as a Software Engineer in the <a href='https://university.innopolis.ru/research/iis/cloud_lab/' target='_blank'> Cloud Systems Lab </a> of Innopolis University"
 
   - image: "/img/timeline/wfys.jpg"
     date: "October 2017"
