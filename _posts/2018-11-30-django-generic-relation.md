@@ -2,8 +2,8 @@
 layout: post
 section-type: post
 title: Django Generic Relation - multiple usage in the same model
-category: Django Tricks
-tags: ['Python', 'Django', 'Database models', 'Generic Relations']
+category: Django-Tricks
+tags: ['Python', 'Django', 'Database-Models', 'Generic-Relations']
 ---
 
 If you have developed web services using <a href="https://djangoproject.com" target="\_blank">Django,</a> chances are that you 
