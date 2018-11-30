@@ -7,6 +7,23 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Django Generic Relation - multiple usage in the same model</title>
+				
+				
+					<description>&lt;p&gt;If you have developed web services using &lt;a href=&quot;https://djangoproject.com&quot; target=&quot;\_blank&quot;&gt;Django,&lt;/a&gt; chances are that you 
+have come across the &lt;a href=&quot;https://docs.djangoproject.com/en/2.1/ref/contrib/contenttypes/#generic-relations&quot; target=&quot;\_blank&quot;&gt;Generic Relations.&lt;/a&gt;
+It is a technique that allows you to link a model with multiple other models without knowing them before hand. It comes 
+in quite handy when you have common traits which can be applied to several models. A typical example is a &lt;em&gt;tagging&lt;/em&gt; system
+which is used as an example in the docs.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 30 Nov 2018 00:00:00 +0300</pubDate>
+				<link>https://ken-dev.info/django%20tricks/2018/11/30/django-generic-relation.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/django%20tricks/2018/11/30/django-generic-relation.html</guid>
+			</item>
+		
+			<item>
 				<title>WFYS 2017: Tale of a thrilled participant</title>
 				
 				

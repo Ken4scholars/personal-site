@@ -33,13 +33,13 @@ author: "Kenneth Nwafor"
 title: "Kenneth Nwafor"
 description: "Website and blog of Kenneth Nwafor - Developer and Data Scientist."
 keywords: "Tech, Data Science, Machine Learning, Blockchain, Python, Django"
-#favicon: "/img/favicon.ico"
+#favicon: "../img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-#black-favicon: "/img/black-lab-glass.ico"
+#black-favicon: "../img/black-lab-glass.ico"
 
 background-img: "../img/network-machine-learning-ss-1920.jpg"
 
