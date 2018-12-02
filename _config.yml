@@ -165,9 +165,9 @@ events:
     date: "July 2017"
     description: "Started working on Weout project"
 
-  - image: "/img/timeline/web-development.png"
-    date: "July 2017"
-    description: " Started working on CashBackFriends project"
+#  - image: "/img/timeline/web-development.png"
+#    date: "July 2017"
+#    description: " Started working on CashBackFriends project"
 
 #  - image: "/img/timeline/inno-uni.jpg"
 #    date: "June - July 2017"
@@ -278,5 +278,12 @@ sass:
 plugins:
   - jekyll-paginate
   - jemoji
+  - jekyll-seo-tag
 
 destination: docs
+
+# Other SEO settings
+
+logo: "/img/me.jpg"
+
+google-site-verification: "tCbXsmoOkPLWM3caJZcEN86pA9YAC8YViUTKqKg3ciM"
