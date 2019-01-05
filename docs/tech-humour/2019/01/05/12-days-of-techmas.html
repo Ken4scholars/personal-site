@@ -18,8 +18,8 @@
   <meta name="author" content="Kenneth Nwafor">
   <meta name="keywords" content="Tech, Data Science, Machine Learning, Blockchain, Python, Django">
   <meta name="google-site-verification" content="tCbXsmoOkPLWM3caJZcEN86pA9YAC8YViUTKqKg3ciM" />
-  <link rel="canonical" href="/django-tricks/2018/11/30/django-generic-relation.html">
-  <title>Kenneth Nwafor | Django Generic Relation - multiple usage in the same model</title>
+  <link rel="canonical" href="/tech-humour/2019/01/05/12-days-of-techmas.html">
+  <title>Kenneth Nwafor | 12 Days Of TechMas</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -177,129 +177,123 @@
 <!-- Swipe Instructions End -->
 
 
-          <h1><strong>Django Generic Relation - multiple usage in the same model</strong></h1>
+          <h1><strong>12 Days Of TechMas</strong></h1>
           <h4>
-            <strong>30 Nov 2018</strong>
+            <strong>05 Jan 2019</strong>
             <small>
               . category:
-              <a class="category" href="/categories/django-tricks.html">
-                Django-Tricks
+              <a class="category" href="/categories/tech-humour.html">
+                tech-humour
               </a>.
-              <a href="/django-tricks/2018/11/30/django-generic-relation.html#disqus_thread">Comments</a>
+              <a href="/tech-humour/2019/01/05/12-days-of-techmas.html#disqus_thread">Comments</a>
               <br>
               
-                <a class="tag" href="/tags/python.html">#Python</a>
+                <a class="tag" href="/tags/tech.html">#tech</a>
               
-                <a class="tag" href="/tags/django.html">#Django</a>
+                <a class="tag" href="/tags/humour.html">#humour</a>
               
-                <a class="tag" href="/tags/database-models.html">#Database-Models</a>
+                <a class="tag" href="/tags/geek.html">#geek</a>
               
-                <a class="tag" href="/tags/generic-relations.html">#Generic-Relations</a>
+                <a class="tag" href="/tags/xmas.html">#xmas</a>
               
             </small>
           </h4>
 
           <section class="text-justify">
-            <p>If you have developed web services using <a href="https://djangoproject.com" target="\_blank">Django,</a> chances are that you 
-have come across the <a href="https://docs.djangoproject.com/en/2.1/ref/contrib/contenttypes/#generic-relations" target="\_blank">Generic Relations.</a>
-It is a technique that allows you to link a model with multiple other models without knowing them before hand. It comes 
-in quite handy when you have common traits which can be applied to several models. A typical example is a <em>tagging</em> system
-which is used as an example in the docs.</p>
+            <p>During the Christmas holiday, I collected my own version of the <a href="https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)" target="\_blank">
+12 days of Christmas</a> each day. Actually I have 13 instead of 12, but oh well, you will find out why.
+While many of them are based on my activities on each of those days, some are just generic tech stuff.</p>
 
-<p>I have used it a couple times and found it very useful, however, there is one problem I have noticed with it - you cannot 
-apply that trait (say tags) more than once in a model. To illustrate this issue and how I solved it, let’s look at my 
-example.</p>
+<p>The idea to create the full song popped up after I had incidentally created my own version for the first 2 days and discovered
+it would be interesting to create the full song.</p>
 
-<p>First I had a model <code class="highlighter-rouge">Event</code> which has images which I process using <a href="https://github.com/bradleyg/django-s3direct"> django-s3direct.</a></p>
+<p>And yeah, when I thought about the naming, I first considered <em>DevMas</em> before <em>TechMas.</em> Yes, you’re right, DevMas definitely
+sounds awful. It kinda sounds like <em>DevilMas</em> which is like the opposite of what Christmas should be. Sheesh!<img class="emoji" title=":cold_sweat:" alt=":cold_sweat:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f630.png" height="20" width="20"></p>
 
-<pre><code data-trim="" class="python">
+<p>So anyway, I ended up going with <em>TechMas</em> and thought voila! what a great name I have come up with, only 
+to check on the 8th day and find out there are tons of <em>12 days of TechMas</em> out there!<img class="emoji" title=":disappointed:" alt=":disappointed:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f61e.png" height="20" width="20">
+This version is still unique in it’s own way though, so let’s get down to it.</p>
 
-class Event(models.Model):
-    ...
-    images = JSONField(S3DirectField(), null=True, blank=True)
-    ...
+<blockquote>
+  <p>On the -1th day of Christmas, my true love sent to me…IndexOutOfRangeException!</p>
+</blockquote>
 
-</code></pre>
+<p>Great Christmas Eve I had there, right?</p>
 
-<p>The first problem was that using the JSONField, a lot of work had to be done in the admin to be able to display 
-the s3direct file upload widget correctly. As a result, I decided to create a separate model to wrap the s3direct field 
-and use the widget provided by the package. Also, considering that I will be using images in other models too, I decided 
-to use generic relations.</p>
+<blockquote>
+  <p>On the first day of Christmas, my true love sent to me…‘RussianType’ December has no attribute ‘Christmas’!</p>
+</blockquote>
 
-<p>So now we have this:</p>
+<p>Yeah, I live in Russia and this is very true!</p>
 
-<pre><code data-trim="" class="python">
+<blockquote>
+  <p>On the second day of Christmas, my true love sent to me…Not enough values to unpack! (expected many, got none)</p>
+</blockquote>
 
-class Image(models.Model):
-    link = S3DirectField()
+<p>Ever tried to unpack an empty tuple in Python? That’s exactly what happened to me on <a href="https://en.wikipedia.org/wiki/Boxing_Day" target="\_blank">boxing day</a>
+when I tried to open the non-existent boxes</p>
 
-    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
-    object_id = models.PositiveIntegerField()
-    content_object = GenericForeignKey('content_type', 'object_id')
+<blockquote>
+  <p>On the third day of Christmas, my true love sent to me…Three fresh compile errors!</p>
+</blockquote>
 
-class Event(models.Model):
-    ...
-    images = GenericRelation(Image, related_name='events')
-    ...
-    
- class Place(models.Model):
-    ...
-    images =  GenericRelation(Image, related_name='places')
-    ...
-    
-</code></pre>
+<p>I definitely would have preferred French hens, but oh well.</p>
 
-<p>Great! Now the Image model can be used in any model needing images and I can simply do this <code class="highlighter-rouge">event.images.all()</code> to fetch all the images belonging
-to a particular event.
-Generally, <code class="highlighter-rouge">GenericRelation</code> is just a manager so we can use the <code class="highlighter-rouge">images</code> field the same way we can use any manager: 
-<code class="highlighter-rouge">filter()</code>, <code class="highlighter-rouge">count()</code>, <code class="highlighter-rouge">first()</code> etc.</p>
+<blockquote>
+  <p>On the 4th day of Christmas, my true love sent to me…‘Bird’ object has no attribute call!</p>
+</blockquote>
 
-<p>Now the next problem - I suddenly now needed to have images uploaded by the event creators (official images) and images uploaded 
-by people who attended the event (let’s just say random images). So how do we separate this? surely I can’t add another 
-<code class="highlighter-rouge">GenericRelation</code> in the <code class="highlighter-rouge">Event</code> model because it doesn’t even make sense. In fact, <code class="highlighter-rouge">images</code> is not 
-actually a database field but just a manager and having the same manager twice won’t make any difference.</p>
+<p>The OP may fancy birds being able to call but OOP begs to defer, if you know what I mean<img class="emoji" title=":satisfied:" alt=":satisfied:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f606.png" height="20" width="20"></p>
 
-<p>So how then can I use this so that I can differentiate between the <em>official images</em> and  <em>random images</em> for events?
-The solution is quite simple but may not be very obvious at the beginning (at least it wasn’t to me <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">)</p>
+<blockquote>
+  <p>On the 5th day of Christmas, my true love sent to me…The one golden perceptron to rule them all!</p>
+</blockquote>
 
-<p>The hack is to do this in the level of the <code class="highlighter-rouge">Image</code> model. Precisely, I introduced a nullable field <code class="highlighter-rouge">purpose</code> in the image model that
-allows models consuming the relationship to specify the usage of particular <code class="highlighter-rouge">Image</code> instances.</p>
+<p>Any ML gurus/Tolkien’s fans in the house? My true love finally gave me something good! a perfectly trained model!
+I bet like me, most people only remember the gift on the 5th day. Kinda has a <em>ring</em> to it!</p>
 
-<p>So now the code looks like this:</p>
+<blockquote>
+  <p>On the 6th day of Christmas, my ReLu sent to me…6 juicy layers!</p>
+</blockquote>
 
-<pre><code data-trim="" class="python">
+<p><em>Geese!</em> My <a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks)" target="\_blank">rectifier</a>  be <em>slaying!</em></p>
 
-class Image(models.Model):
-    link = S3DirectField()
-    
-    # A hack to allow models have "multiple" image fields
-    purpose = models.CharField(null=True, blank=True)
-    
-    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
-    object_id = models.PositiveIntegerField()
-    content_object = GenericForeignKey('content_type', 'object_id')
+<blockquote>
+  <p>On the 7th day of Christmas, my true sent to me…7 docker swarms!</p>
+</blockquote>
 
-class Event(models.Model):
-    ...
-    images = GenericRelation(Image, related_name='events')
-    ...
-    
-    @property
-    def official_images(self):
-        return self.images.filter(purpose='official')
-    
-    @property
-    def random_images(self):
-        return self.images.filter(purpose='random')
-    
-</code></pre>
+<p>Any DevOps in the house? Go green! go microservices! swim in a pool of docker containers like Swans! Kuber fans are also welcome<img class="emoji" title=":smiley:" alt=":smiley:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f603.png" height="20" width="20"></p>
 
-<p>So to create an official image, all I need do is <code class="highlighter-rouge">event.images.create(link='my link', content_object=event, purpose='official')</code>.
-And I can get them by <code class="highlighter-rouge">event.official_images.all()</code> <br>
-Of course, the <code class="highlighter-rouge">purpose</code> field is nullable so other models like <code class="highlighter-rouge">Place</code> can keep using it the same way if multiple image 
-fields are not needed.</p>
+<blockquote>
+  <p>On the 8th day of Christmas, my true sent to me…ValueError: expected an object of type ‘Christmas’, got NewYear!</p>
+</blockquote>
 
-<p>There may also be other ways to solve this issue and you can propose yours in the comments. In any case, I do hope this was of help to you.</p>
+<p>Hurray, 2018 has been <em>milked</em> dry and it’s now 2019! Those maids though<img class="emoji" title=":joy:" alt=":joy:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f602.png" height="20" width="20"></p>
+
+<blockquote>
+  <p>On the 9th day of Christmas, my true sent to me…9 ladybugs dancing!</p>
+</blockquote>
+
+<p>Bugs, bugs and bugs again. Instead of ladies dancing I got huge ladybugs dancing</p>
+
+<blockquote>
+  <p>On the 10th day of Christmas, my true sent to me…EndOfHoliday(EOH) error!</p>
+</blockquote>
+
+<p>And my holiday unexpectedly came to an end, like a File stream. Had to go back to work<img class="emoji" title=":weary:" alt=":weary:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f629.png" height="20" width="20"></p>
+
+<blockquote>
+  <p>On the 1th day of Christmas, my true sent to me…The Pied Piper Compression algorithm!</p>
+</blockquote>
+
+<p><em>Hooli sh*t!</em> thanks love, for the great gift! I bet you never knew <a href="http://www.piedpiper.com/" target="\_blank">Pied piper</a> existed.
+I am off to the Valley to join the pipers!</p>
+
+<blockquote>
+  <p>On the 12th day of Christmas, my true sent to me…Segmentation Fault!</p>
+</blockquote>
+
+<p>SegFault damn! Looks like my days array is finally out of bound. I’m out!</p>
 
           </section>
 
@@ -309,7 +303,7 @@ fields are not needed.</p>
   <ul class="rrssb-buttons clearfix">
     
       <li class="rrssb-email">
-        <a href="mailto:?subject=Django%20Generic%20Relation%20-%20multiple%20usage%20in%20the%20same%20model&amp;body=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html" data-proofer-ignore>
+        <a href="mailto:?subject=12%20Days%20Of%20TechMas&amp;body=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html" data-proofer-ignore>
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28">
               <path d="M20.11 26.147c-2.335 1.05-4.36 1.4-7.124 1.4C6.524 27.548.84 22.916.84 15.284.84 7.343 6.602.45 15.4.45c6.854 0 11.8 4.7 11.8 11.252 0 5.684-3.193 9.265-7.398 9.3-1.83 0-3.153-.934-3.347-2.997h-.077c-1.208 1.986-2.96 2.997-5.023 2.997-2.532 0-4.36-1.868-4.36-5.062 0-4.75 3.503-9.07 9.11-9.07 1.713 0 3.7.4 4.6.972l-1.17 7.203c-.387 2.298-.115 3.3 1 3.4 1.674 0 3.774-2.102 3.774-6.58 0-5.06-3.27-8.994-9.304-8.994C9.05 2.87 3.83 7.545 3.83 14.97c0 6.5 4.2 10.2 10 10.202 1.987 0 4.09-.43 5.647-1.245l.634 2.22zM16.647 10.1c-.31-.078-.7-.155-1.207-.155-2.572 0-4.596 2.53-4.596 5.53 0 1.5.7 2.4 1.9 2.4 1.44 0 2.96-1.83 3.31-4.088l.592-3.72z"></path>
@@ -321,7 +315,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-facebook">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html&amp;title=Django%20Generic%20Relation%20-%20multiple%20usage%20in%20the%20same%20model" class="popup">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html&amp;title=12%20Days%20Of%20TechMas" class="popup">
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" preserveaspectratio="xMidYMid" width="29" height="29" viewbox="0 0 29 29"><path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z" class="cls-2" fill-rule="evenodd"></path></svg>
           </span>
@@ -331,7 +325,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-twitter">
-        <a href="https://twitter.com/share?url=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html&amp;text=Django%20Generic%20Relation%20-%20multiple%20usage%20in%20the%20same%20model" class="popup">
+        <a href="https://twitter.com/share?url=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html&amp;text=12%20Days%20Of%20TechMas" class="popup">
           <span class="rrssb-icon"><svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28"><path d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62c-3.122.162-6.22-.646-8.86-2.32 2.702.18 5.375-.648 7.507-2.32-2.072-.248-3.818-1.662-4.49-3.64.802.13 1.62.077 2.4-.154-2.482-.466-4.312-2.586-4.412-5.11.688.276 1.426.408 2.168.387-2.135-1.65-2.73-4.62-1.394-6.965C5.574 7.816 9.54 9.84 13.802 10.07c-.842-2.738.694-5.64 3.434-6.48 2.018-.624 4.212.043 5.546 1.682 1.186-.213 2.318-.662 3.33-1.317-.386 1.256-1.248 2.312-2.4 2.942 1.048-.106 2.07-.394 3.02-.85-.458 1.182-1.343 2.15-2.48 2.71z"></path></svg></span>
           <span class="rrssb-text">twitter</span>
         </a>
@@ -339,7 +333,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-linkedin">
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html" class="popup">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html" class="popup">
         <span class="rrssb-icon">
           <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28">
             <path d="M25.424 15.887v8.447h-4.896v-7.882c0-1.98-.71-3.33-2.48-3.33-1.354 0-2.158.91-2.514 1.802-.13.315-.162.753-.162 1.194v8.216h-4.9s.067-13.35 0-14.73h4.9v2.087c-.01.017-.023.033-.033.05h.032v-.05c.65-1.002 1.812-2.435 4.414-2.435 3.222 0 5.638 2.106 5.638 6.632zM5.348 2.5c-1.676 0-2.772 1.093-2.772 2.54 0 1.42 1.066 2.538 2.717 2.546h.032c1.71 0 2.77-1.132 2.77-2.546C8.056 3.593 7.02 2.5 5.344 2.5h.005zm-2.48 21.834h4.896V9.604H2.867v14.73z"></path>
@@ -351,7 +345,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-reddit">
-        <a href="https://www.reddit.com/submit?url=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html&amp;title=Django%20Generic%20Relation%20-%20multiple%20usage%20in%20the%20same%20model" target="_blank">
+        <a href="https://www.reddit.com/submit?url=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html&amp;title=12%20Days%20Of%20TechMas" target="_blank">
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28">
               <path d="M11.794 15.316c0-1.03-.835-1.895-1.866-1.895-1.03 0-1.893.866-1.893 1.896s.863 1.9 1.9 1.9c1.023-.016 1.865-.916 1.865-1.9zM18.1 13.422c-1.03 0-1.895.864-1.895 1.895 0 1 .9 1.9 1.9 1.865 1.03 0 1.87-.836 1.87-1.865-.006-1.017-.875-1.917-1.875-1.895zM17.527 19.79c-.678.68-1.826 1.007-3.514 1.007h-.03c-1.686 0-2.834-.328-3.51-1.005-.264-.265-.693-.265-.958 0-.264.265-.264.7 0 1 .943.9 2.4 1.4 4.5 1.402.005 0 0 0 0 0 .005 0 0 0 0 0 2.066 0 3.527-.46 4.47-1.402.265-.264.265-.693.002-.958-.267-.334-.688-.334-.988-.043z"></path>
@@ -364,7 +358,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-googleplus">
-        <a href="https://plus.google.com/share?url=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html" class="popup">
+        <a href="https://plus.google.com/share?url=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html" class="popup">
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M21 8.29h-1.95v2.6h-2.6v1.82h2.6v2.6H21v-2.6h2.6v-1.885H21V8.29zM7.614 10.306v2.925h3.9c-.26 1.69-1.755 2.925-3.9 2.925-2.34 0-4.29-2.016-4.29-4.354s1.885-4.353 4.29-4.353c1.104 0 2.014.326 2.794 1.105l2.08-2.08c-1.3-1.17-2.924-1.883-4.874-1.883C3.65 4.586.4 7.835.4 11.8s3.25 7.212 7.214 7.212c4.224 0 6.953-2.988 6.953-7.082 0-.52-.065-1.104-.13-1.624H7.614z"></path></svg>
           </span>
@@ -374,7 +368,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-tumblr">
-        <a href="https://tumblr.com/share/link?url=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html" target="_blank">
+        <a href="https://tumblr.com/share/link?url=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html" target="_blank">
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28">
               <path d="M18.02 21.842c-2.03.052-2.422-1.396-2.44-2.446v-7.294h4.73V7.874H15.6V1.592h-3.714s-.167.053-.182.186c-.218 1.935-1.144 5.33-4.988 6.688v3.637h2.927v7.677c0 2.8 1.7 6.7 7.3 6.6 1.863-.03 3.934-.795 4.392-1.453l-1.22-3.54c-.52.213-1.415.413-2.115.455z"></path>
@@ -386,7 +380,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-pinterest">
-        <a href="https://pinterest.com/pin/create/button/?url=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html" target="_blank">
+        <a href="https://pinterest.com/pin/create/button/?url=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html" target="_blank">
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28">
               <path d="M14.02 1.57c-7.06 0-12.784 5.723-12.784 12.785S6.96 27.14 14.02 27.14c7.062 0 12.786-5.725 12.786-12.785 0-7.06-5.724-12.785-12.785-12.785zm1.24 17.085c-1.16-.09-1.648-.666-2.558-1.22-.5 2.627-1.113 5.146-2.925 6.46-.56-3.972.822-6.952 1.462-10.117-1.094-1.84.13-5.545 2.437-4.632 2.837 1.123-2.458 6.842 1.1 7.557 3.71.744 5.226-6.44 2.924-8.775-3.324-3.374-9.677-.077-8.896 4.754.19 1.178 1.408 1.538.49 3.168-2.13-.472-2.764-2.15-2.683-4.388.132-3.662 3.292-6.227 6.46-6.582 4.008-.448 7.772 1.474 8.29 5.24.58 4.254-1.815 8.864-6.1 8.532v.003z"></path>
@@ -398,7 +392,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-pocket">
-        <a href="https://getpocket.com/save?url=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html">
+        <a href="https://getpocket.com/save?url=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html">
           <span class="rrssb-icon">
             <svg width="32" height="28" viewbox="0 0 32 28" xmlns="http://www.w3.org/2000/svg">
               <path d="M28.782.002c2.03.002 3.193 1.12 3.182 3.106-.022 3.57.17 7.16-.158 10.7-1.09 11.773-14.588 18.092-24.6 11.573C2.72 22.458.197 18.313.057 12.937c-.09-3.36-.05-6.72-.026-10.08C.04 1.113 1.212.016 3.02.008 7.347-.006 11.678.004 16.006.002c4.258 0 8.518-.004 12.776 0zM8.65 7.856c-1.262.135-1.99.57-2.357 1.476-.392.965-.115 1.81.606 2.496 2.453 2.334 4.91 4.664 7.398 6.966 1.086 1.003 2.237.99 3.314-.013 2.407-2.23 4.795-4.482 7.17-6.747 1.203-1.148 1.32-2.468.365-3.426-1.01-1.014-2.302-.933-3.558.245-1.596 1.497-3.222 2.965-4.75 4.526-.706.715-1.12.627-1.783-.034-1.597-1.596-3.25-3.138-4.93-4.644-.47-.42-1.123-.647-1.478-.844z"></path>
@@ -410,7 +404,7 @@ fields are not needed.</p>
     
     
       <li class="rrssb-vk">
-        <a href="https://vk.com/share.php?url=https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html" class="popup">
+        <a href="https://vk.com/share.php?url=https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html" class="popup">
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewbox="70 70 378.7 378.7"><path d="M254.998 363.106h21.217s6.408-.706 9.684-4.23c3.01-3.24 2.914-9.32 2.914-9.32s-.415-28.47 12.796-32.663c13.03-4.133 29.755 27.515 47.482 39.685 13.407 9.206 23.594 7.19 23.594 7.19l47.407-.662s24.797-1.53 13.038-21.027c-.96-1.594-6.85-14.424-35.247-40.784-29.728-27.59-25.743-23.126 10.063-70.85 21.807-29.063 30.523-46.806 27.8-54.405-2.596-7.24-18.636-5.326-18.636-5.326l-53.375.33s-3.96-.54-6.892 1.216c-2.87 1.716-4.71 5.726-4.71 5.726s-8.452 22.49-19.714 41.618c-23.77 40.357-33.274 42.494-37.16 39.984-9.037-5.842-6.78-23.462-6.78-35.983 0-39.112 5.934-55.42-11.55-59.64-5.802-1.4-10.076-2.327-24.915-2.48-19.046-.192-35.162.06-44.29 4.53-6.072 2.975-10.757 9.6-7.902 9.98 3.528.47 11.516 2.158 15.75 7.92 5.472 7.444 5.28 24.154 5.28 24.154s3.145 46.04-7.34 51.758c-7.193 3.922-17.063-4.085-38.253-40.7-10.855-18.755-19.054-39.49-19.054-39.49s-1.578-3.873-4.398-5.947c-3.42-2.51-8.2-3.307-8.2-3.307l-50.722.33s-7.612.213-10.41 3.525c-2.488 2.947-.198 9.036-.198 9.036s39.707 92.902 84.672 139.72c41.234 42.93 88.048 40.112 88.048 40.112"></path></svg>
           </span>
@@ -438,7 +432,7 @@ fields are not needed.</p>
      *  */
 
      var disqus_config = function () {
-        this.page.url = "https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.url = "https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html";  // Replace PAGE_URL with your page's canonical URL variable
         this.page.identifier = this.page.url ; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
      };
 
@@ -627,7 +621,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Django Generic Relation - multiple usage in the same model', 'https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html');
+    history.pushState({}, '12 Days Of TechMas', 'https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html');
   }
 }
 </script>

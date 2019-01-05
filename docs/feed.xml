@@ -7,6 +7,21 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>12 Days Of TechMas</title>
+				
+				
+					<description>&lt;p&gt;During the Christmas holiday, I collected my own version of the &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)&quot; target=&quot;\_blank&quot;&gt;
+12 days of Christmas&lt;/a&gt; each day. Actually I have 13 instead of 12, but oh well, you will find out why.
+While many of them are based on my activities on each of those days, some are just generic tech stuff.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 05 Jan 2019 00:00:00 +0300</pubDate>
+				<link>https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</guid>
+			</item>
+		
+			<item>
 				<title>Django Generic Relation - multiple usage in the same model</title>
 				
 				

@@ -65,6 +65,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Plan to throw one (implementation) away; you will, anyhow."
   - text: "Before software can be reusable it first has to be usable."
   - text: "If you don't strive to be in control, you will be under it, sooner or later."
+  - text: "I found my true love in the manifolds of a deep neural network, but she was gone by the next epoch."
 
 me-img: "/img/me.jpg"
 
