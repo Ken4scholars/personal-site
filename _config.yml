@@ -217,7 +217,7 @@ email: "info@ken-dev.info"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Kenneth Nwafor is a Software Developer and an aspiring Data Scientist. He is also a Blockchain enthusiast. He loves to play ping pong in his free time."
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/author.jpg"
 
 ##################
 # Social Buttons #
