@@ -3,8 +3,8 @@
 	<channel>
 		<title>Kenneth Nwafor</title>
 		<description>Website and blog of Kenneth Nwafor</description>
-		<link>http://0.0.0.0:4000</link>
-		<atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://ken-dev.info</link>
+		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Django Post-save Signal in a Transaction</title>
@@ -26,8 +26,8 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 </description>
 				
 				<pubDate>Fri, 04 Oct 2019 00:00:00 +0300</pubDate>
-				<link>http://0.0.0.0:4000/django-tricks/2019/10/04/django-signals-in-transaction.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/django-tricks/2019/10/04/django-signals-in-transaction.html</guid>
+				<link>https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</guid>
 			</item>
 		
 			<item>
@@ -39,8 +39,8 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 </description>
 				
 				<pubDate>Thu, 06 Jun 2019 00:00:00 +0300</pubDate>
-				<link>http://0.0.0.0:4000/science/2019/06/06/certainty-vs-uncertainty.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/science/2019/06/06/certainty-vs-uncertainty.html</guid>
+				<link>https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</guid>
 			</item>
 		
 			<item>
@@ -54,8 +54,8 @@ While many of them are based on my activities on each of those days, some are ju
 </description>
 				
 				<pubDate>Sat, 05 Jan 2019 00:00:00 +0300</pubDate>
-				<link>http://0.0.0.0:4000/tech-humour/2019/01/05/12-days-of-techmas.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/tech-humour/2019/01/05/12-days-of-techmas.html</guid>
+				<link>https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</guid>
 			</item>
 		
 			<item>
@@ -71,8 +71,8 @@ which is used as an example in the docs.&lt;/p&gt;
 </description>
 				
 				<pubDate>Fri, 30 Nov 2018 00:00:00 +0300</pubDate>
-				<link>http://0.0.0.0:4000/django-tricks/2018/11/30/django-generic-relation.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/django-tricks/2018/11/30/django-generic-relation.html</guid>
+				<link>https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</guid>
 			</item>
 		
 			<item>
@@ -84,8 +84,8 @@ which is used as an example in the docs.&lt;/p&gt;
 </description>
 				
 				<pubDate>Fri, 01 Jun 2018 00:00:00 +0300</pubDate>
-				<link>http://0.0.0.0:4000/events/2018/06/01/wfys2017.html</link>
-				<guid isPermaLink="true">http://0.0.0.0:4000/events/2018/06/01/wfys2017.html</guid>
+				<link>https://ken-dev.info/events/2018/06/01/wfys2017.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/events/2018/06/01/wfys2017.html</guid>
 			</item>
 		
 	</channel>
