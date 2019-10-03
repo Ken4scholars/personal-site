@@ -16,7 +16,7 @@ I have used it a couple times and found it very useful, however, there is one pr
 apply that trait (say tags) more than once in a model. To illustrate this issue and how I solved it, let's look at my 
 example.
 
-First I had a model `Event` which has images which I process using <a href="https://github.com/bradleyg/django-s3direct"> django-s3direct.</a>
+First I had a model `Event` which has images which I process using <a href="https://github.com/bradleyg/django-s3direct" target="\_blank"> django-s3direct.</a>
 
 <pre><code data-trim class="python">
 {% raw %}

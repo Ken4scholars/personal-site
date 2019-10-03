@@ -26,8 +26,14 @@
     
   
     
+  
+    
+  
+    
+  
+    
       <url>
-        <loc>https://ken-dev.info/blog/</loc>
+        <loc>http://0.0.0.0:4000/blog/</loc>
         
           
           
@@ -40,7 +46,7 @@
   
     
       <url>
-        <loc>https://ken-dev.info/</loc>
+        <loc>http://0.0.0.0:4000/</loc>
         
           
           
@@ -49,6 +55,18 @@
           
         
        </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -81,7 +99,16 @@
   
   
     <url>
-      <loc>https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</loc>
+      <loc>http://0.0.0.0:4000/django-tricks/2019/10/04/django-signals-in-transaction.html</loc>
+      
+        <lastmod>2019-10-04T00:00:00+03:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>http://0.0.0.0:4000/science/2019/06/06/certainty-vs-uncertainty.html</loc>
       
         <lastmod>2019-06-06T00:00:00+03:00</lastmod>
       
@@ -90,7 +117,7 @@
     </url>
   
     <url>
-      <loc>https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</loc>
+      <loc>http://0.0.0.0:4000/tech-humour/2019/01/05/12-days-of-techmas.html</loc>
       
         <lastmod>2019-01-05T00:00:00+03:00</lastmod>
       
@@ -99,7 +126,7 @@
     </url>
   
     <url>
-      <loc>https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</loc>
+      <loc>http://0.0.0.0:4000/django-tricks/2018/11/30/django-generic-relation.html</loc>
       
         <lastmod>2018-11-30T00:00:00+03:00</lastmod>
       
@@ -108,7 +135,7 @@
     </url>
   
     <url>
-      <loc>https://ken-dev.info/events/2018/06/01/wfys2017.html</loc>
+      <loc>http://0.0.0.0:4000/events/2018/06/01/wfys2017.html</loc>
       
         <lastmod>2018-06-01T00:00:00+03:00</lastmod>
       
