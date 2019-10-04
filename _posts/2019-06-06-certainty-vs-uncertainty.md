@@ -26,7 +26,7 @@ Taken alone, the momentum can be determined with good precision. The same also g
 the position. The uncertainty only increases when we try to determine both. And this is why
 in scientific calculations, some variables are made constant to reduce the uncertainty. We often see
 statements like "Take *g*, the acceleration due to gravity as 10 m/s". This eliminates the need
-to worry about how *g* varies on different locations of the Earth thereby reducing the uncertainty. But then, we 
+to worry about how *g* varies on different locations on Earth thereby reducing the uncertainty. But then, we 
 have only improved the certainty in that calculation but in reality the uncertainty still remains the same.
 
 Humans have developed probabilistic thinking to deal with the uncertainties of life. So even though we cannot say that
@@ -40,7 +40,7 @@ So, is uncertainty bad on its own? Let us find out in the following sections.
 ## Uncertainty and Randomness
 Having established that absolute certainty is rare due to the presence of variables, some of which are unknown, what
 can we say about *absolute uncertainty*? Can uncertainty in fact be absolute? Before attempting to answer this question,
-it is important different the absolute uncertainty in question here from the concept of absolute uncertainty calculated for measurements.
+it is important to differentiate the absolute uncertainty in question here from the concept of absolute uncertainty calculated for measurements.
 By absolute uncertainty here, I mean a state of 0 certainty. One could say, a state of absolute randomness without 
 any detectable patterns or laws governing the occurrence of the event. In a way uncertainty and randomness are actually tightly connected.
 \[Lewis, Gallant] differentiate between tangible uncertainties with *known unknowns* where we know the
