@@ -142,6 +142,15 @@ syntax-highlight: True
 
 events:
 
+  - image: "/img/timeline/nus.jpg"
+    date: "January 2020"
+    description: "Started an AI graduate program in the National University of Singapore.
+    I also double as a Research Assistant for <a href='https://en.wikipedia.org/wiki/Konstantin_Novoselov' target='_blank'>Sir Konstantin Novoselov</a>."
+    link:
+        url: http://www.nus.edu.sg/
+        external: True
+
+
   - image: "/img/timeline/mkdev_mentor.jpg"
     date: "January 2019"
     description: "Became a programming mentor at <a href='https://mkdev.me/en' target='_blank'>MkDev.me</a>, a programming mentorship platform."

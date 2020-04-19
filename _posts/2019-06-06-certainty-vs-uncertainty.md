@@ -72,7 +72,7 @@ it will help to make reference to their uncertainties. Though another great appl
 
 ## Conclusion
 In conclusion, neither absolute certainty nor uncertainty exist (or at least have not been proven to). Nevertheless, the absence of 
-absolute uncertainty does not discredit scientific theories as they are usually defined with conditions that decrease the uncertainties and are shown
+absolute certainty does not discredit scientific theories as they are usually defined with conditions that decrease the uncertainties and are shown
 to hold with some degree of certainty. Also, uncertainty as evil as it may sound, is actually useful in some circumstances and applied in different areas.
 
 
