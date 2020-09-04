@@ -1,6 +1,10 @@
-
-
-# Data Science
+---
+layout: post
+section-type: post
+title: 'Data Science: The Past, The Present, and The Future'
+category: science 
+tags: ['data-science', 'AI',  'machine-learning', 'NLP']
+---
 
 ## A glimpse at the future
 
@@ -11,7 +15,7 @@ some kitchen specialized androids and has a humanoid for a personal assistant
 who does pretty almost anything. Needless to say that this personal assistant 
 is indistinguishable from a human both physically and intellectually. 
 
-The paragraph above may seem like an extract from some science fiction book 
+The paragraph above may seem like an extract from some science fiction book, 
 but it is a possible future and one which I strongly believe in. This future
 will be made possible by the current surge in research and development
 in the fields of AI, powered by Deep Learning and other Data Science techniques.
@@ -31,7 +35,7 @@ way to more practical work in the field. Another major factor that has
 spearheaded the growth is the exponential growth in the amount of data available. 
 \[Desjardins, Jeff] reports that as at 2013, there was about 4.4 *zettabytes* 
 (ZB ~1,000,000,000 *terabytes*) of data accumulated in the digital world 
-and this figure is expected to reach 44ZB by 2020, showing a very speedy 
+and this figure is expected to reach 44ZB in 2020, showing a very speedy 
 growth. As a data-driven field, Data Science has benefited immensely from 
 this huge amount of data.  
 
@@ -46,7 +50,7 @@ Genetic algorithms, Transfer Learning,  Convolutional Neural Networks (CNNs)
 and Recurrent Neural Networks. These techniques have been applied to 
 different areas such as Gaming, Natural Language Processing, Pattern Recognition, etc.
 Very good examples of ways in which these techniques have been used to achieve 
-tremendous results include *AlphaGo*, *Deep Mind* and the recent surge in 
+tremendous results include *AlphaGo*, *Deep Mind*, *GPT3* and the recent surge in 
 self-driving cars. With even better improvements in these techniques, more 
 useful applications await in the nearest future.
 
@@ -58,14 +62,14 @@ the CUDA computing platform. GPUs which were traditionally used only for
 graphics rendering now became platforms for running ML algorithms. Years 
 later, Google released the Tensor Processing Units (TPUs) which is particularly
 specialized at training neural networks. This was a huge achievement, as 
-it made training models much more faster and allowed for training with 
+it made training models much faster and allowed for training with 
 bigger datasets. Currently, many cloud platforms have special environments 
-for data scientists to train deploy their models.
+for data scientists to train and deploy their models.
 
-Regarding tools, there has been a surge in the number available and many 
+Regarding tools, there has been a surge in the number available, and many 
 of them are free, making it easier for people to enter the field. 
 These tools provide the framework to easily train and deploy ML models without 
-having to implement the underlying algorithms. Some of the popular open 
+having to implement the underlying algorithms. Some popular open 
 source frameworks available include TensorFlow, PyTorch, Keras, Microsoft CNTK etc. 
 Some advocates for free and open AI have also created frameworks that
 have state-of-the-art techniques implemented, to ensure that they are more 
@@ -87,8 +91,7 @@ sentiment analysis, etc. My bachelor's thesis was centered on automatic
 text summarization as applied to a collection of related tweets. Text 
 summarization seeks to find the most important pieces of information in 
 a text in such a way that the summary can fully represent the entire text.
-Working on this was quite exciting and I hope to go deeper into it using 
-generative approaches as opposed to extractive techniques. 
+
 
 NLP techniques have gradually developed from rule based approaches to more 
 data-driven statistical approaches using deep learning algorithms. This has 
@@ -97,11 +100,14 @@ Siri, Google Assistant and Cortana have NLP algorithms at their core and
 have seen quite good successes. These are the systems that will eventually 
 evolve into the humanoid personal assistant in *Charlie's* age in the future. 
 Chat bots have also become very common thanks to the development in this area.
+The capabilities of GPT3 are also absolutely mind-blowing!
 
 Generally, NLP tries to improve human-computer interaction through the use 
 of natural languages which is easier for humans to understand. I think this 
 is really one of the biggest pieces in the puzzle of creating an 
 *Artificial General Intelligence* (AGI).
+
+Are you also excited about what the future holds for Data Science and AI?
 
 
 ## References

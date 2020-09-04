@@ -210,7 +210,7 @@ which is used as an example in the docs.</p>
 apply that trait (say tags) more than once in a model. To illustrate this issue and how I solved it, let’s look at my 
 example.</p>
 
-<p>First I had a model <code class="highlighter-rouge">Event</code> which has images which I process using <a href="https://github.com/bradleyg/django-s3direct" target="\_blank"> django-s3direct.</a></p>
+<p>First I had a model <code class="language-plaintext highlighter-rouge">Event</code> which has images which I process using <a href="https://github.com/bradleyg/django-s3direct" target="\_blank"> django-s3direct.</a></p>
 
 <pre><code data-trim="" class="python">
 
@@ -249,21 +249,21 @@ class Event(models.Model):
     
 </code></pre>
 
-<p>Great! Now the Image model can be used in any model needing images and I can simply do this <code class="highlighter-rouge">event.images.all()</code> to fetch all the images belonging
+<p>Great! Now the Image model can be used in any model needing images and I can simply do this <code class="language-plaintext highlighter-rouge">event.images.all()</code> to fetch all the images belonging
 to a particular event.
-Generally, <code class="highlighter-rouge">GenericRelation</code> is just a manager so we can use the <code class="highlighter-rouge">images</code> field the same way we can use any manager: 
-<code class="highlighter-rouge">filter()</code>, <code class="highlighter-rouge">count()</code>, <code class="highlighter-rouge">first()</code> etc.</p>
+Generally, <code class="language-plaintext highlighter-rouge">GenericRelation</code> is just a manager so we can use the <code class="language-plaintext highlighter-rouge">images</code> field the same way we can use any manager: 
+<code class="language-plaintext highlighter-rouge">filter()</code>, <code class="language-plaintext highlighter-rouge">count()</code>, <code class="language-plaintext highlighter-rouge">first()</code> etc.</p>
 
 <p>Now the next problem - I suddenly now needed to have images uploaded by the event creators (official images) and images uploaded 
 by people who attended the event (let’s just say random images). So how do we separate this? surely I can’t add another 
-<code class="highlighter-rouge">GenericRelation</code> in the <code class="highlighter-rouge">Event</code> model because it doesn’t even make sense. In fact, <code class="highlighter-rouge">images</code> is not 
+<code class="language-plaintext highlighter-rouge">GenericRelation</code> in the <code class="language-plaintext highlighter-rouge">Event</code> model because it doesn’t even make sense. In fact, <code class="language-plaintext highlighter-rouge">images</code> is not 
 actually a database field but just a manager and having the same manager twice won’t make any difference.</p>
 
 <p>So how then can I use this so that I can differentiate between the <em>official images</em> and  <em>random images</em> for events?
-The solution is quite simple but may not be very obvious at the beginning (at least it wasn’t to me <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">)</p>
+The solution is quite simple but may not be very obvious at the beginning (at least it wasn’t to me <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">)</p>
 
-<p>The hack is to do this in the level of the <code class="highlighter-rouge">Image</code> model. Precisely, I introduced a nullable field <code class="highlighter-rouge">purpose</code> in the image model that
-allows models consuming the relationship to specify the usage of particular <code class="highlighter-rouge">Image</code> instances.</p>
+<p>The hack is to do this in the level of the <code class="language-plaintext highlighter-rouge">Image</code> model. Precisely, I introduced a nullable field <code class="language-plaintext highlighter-rouge">purpose</code> in the image model that
+allows models consuming the relationship to specify the usage of particular <code class="language-plaintext highlighter-rouge">Image</code> instances.</p>
 
 <p>So now the code looks like this:</p>
 
@@ -294,9 +294,9 @@ class Event(models.Model):
     
 </code></pre>
 
-<p>So to create an official image, all I need do is <code class="highlighter-rouge">event.images.create(link='my link', content_object=event, purpose='official')</code>.
-And I can get them by <code class="highlighter-rouge">event.official_images.all()</code> <br>
-Of course, the <code class="highlighter-rouge">purpose</code> field is nullable so other models like <code class="highlighter-rouge">Place</code> can keep using it the same way if multiple image 
+<p>So to create an official image, all I need do is <code class="language-plaintext highlighter-rouge">event.images.create(link='my link', content_object=event, purpose='official')</code>.
+And I can get them by <code class="language-plaintext highlighter-rouge">event.official_images.all()</code> <br>
+Of course, the <code class="language-plaintext highlighter-rouge">purpose</code> field is nullable so other models like <code class="language-plaintext highlighter-rouge">Place</code> can keep using it the same way if multiple image 
 fields are not needed.</p>
 
 <p>There may also be other ways to solve this issue and you can propose yours in the comments. In any case, I do hope this was of help to you.</p>

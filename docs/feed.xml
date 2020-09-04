@@ -7,6 +7,18 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Data Science: The Past, The Present, and The Future</title>
+				
+				
+					<description>&lt;h2 id=&quot;a-glimpse-at-the-future&quot;&gt;A glimpse at the future&lt;/h2&gt;
+</description>
+				
+				<pubDate>Sat, 05 Sep 2020 00:00:00 +0800</pubDate>
+				<link>https://ken-dev.info/science/2020/09/05/data-science.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/science/2020/09/05/data-science.html</guid>
+			</item>
+		
+			<item>
 				<title>Django Post-save Signal in a Transaction</title>
 				
 				
@@ -22,7 +34,6 @@ between different parts of your code. The Django signals system is an implementa
 &lt;a href=&quot;https://abdulapopoola.com/2013/03/12/design-patterns-pub-sub-explained/&quot; target=&quot;\_blank&quot;&gt;publisher/subscriber&lt;/a&gt; (or just pubsub) design pattern
 so it is actually nothing new nor is it limited to the framework. The issue is that because most of popular signals (say hello to &lt;a href=&quot;https://docs.djangoproject.com/en/2.2/ref/signals/#django.db.models.signals.post_save&quot; target=&quot;\_blank&quot;&gt;post_save&lt;/a&gt;)
 are inbuilt and triggered by the framework, it is usually not obvious when they are used because it is not visible in your code.&lt;/p&gt;
-
 </description>
 				
 				<pubDate>Fri, 04 Oct 2019 00:00:00 +0800</pubDate>
@@ -35,7 +46,6 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 				
 				
 					<description>&lt;h2 id=&quot;the-big-question&quot;&gt;The big question&lt;/h2&gt;
-
 </description>
 				
 				<pubDate>Thu, 06 Jun 2019 00:00:00 +0800</pubDate>
@@ -50,7 +60,6 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 					<description>&lt;p&gt;During the Christmas holiday, I collected my own version of the &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)&quot; target=&quot;\_blank&quot;&gt;
 12 days of Christmas&lt;/a&gt; each day. Actually I have 13 instead of 12, but oh well, you will find out why.
 While many of them are based on my activities on each of those days, some are just generic tech stuff.&lt;/p&gt;
-
 </description>
 				
 				<pubDate>Sat, 05 Jan 2019 00:00:00 +0800</pubDate>
@@ -67,7 +76,6 @@ have come across the &lt;a href=&quot;https://docs.djangoproject.com/en/2.1/ref/
 It is a technique that allows you to link a model with multiple other models without knowing them before hand. It comes 
 in quite handy when you have common traits which can be applied to several models. A typical example is a &lt;em&gt;tagging&lt;/em&gt; system
 which is used as an example in the docs.&lt;/p&gt;
-
 </description>
 				
 				<pubDate>Fri, 30 Nov 2018 00:00:00 +0800</pubDate>
@@ -80,7 +88,6 @@ which is used as an example in the docs.&lt;/p&gt;
 				
 				
 					<description>&lt;p&gt;Since this is my first post on this blog, I figured I need to to give a little background info about myself.&lt;/p&gt;
-
 </description>
 				
 				<pubDate>Fri, 01 Jun 2018 00:00:00 +0800</pubDate>

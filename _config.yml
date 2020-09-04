@@ -145,7 +145,7 @@ events:
   - image: "/img/timeline/nus.jpg"
     date: "January 2020"
     description: "Started an AI graduate program in the National University of Singapore.
-    I also double as a Research Assistant for <a href='https://en.wikipedia.org/wiki/Konstantin_Novoselov' target='_blank'>Sir Konstantin Novoselov</a>."
+    I also double as a Research Assistant for Nobel Laureate <a href='https://en.wikipedia.org/wiki/Konstantin_Novoselov' target='_blank'>Sir Konstantin Novoselov</a>."
     link:
         url: http://www.nus.edu.sg/
         external: True
