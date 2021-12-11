@@ -226,7 +226,7 @@ email: "info@ken-dev.info"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Kenneth Nwafor is data scientist and software developer with great experience in the industry. He loves to write about tech and life in general."
+author_blurb: "Kenneth Nwafor is a data scientist and software developer with great experience in the industry. He loves to write about tech, science and life in general."
 author_blurb_image: "/img/author.jpg"
 
 ##################
