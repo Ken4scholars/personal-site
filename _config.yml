@@ -47,7 +47,7 @@ background-img: "../img/network-machine-learning-ss-1920.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -144,8 +144,8 @@ events:
 
   - image: "/img/timeline/nus.jpg"
     date: "January 2020"
-    description: "Started an AI graduate program in the National University of Singapore.
-    I also double as a Research Assistant for Nobel Laureate <a href='https://en.wikipedia.org/wiki/Konstantin_Novoselov' target='_blank'>Sir Konstantin Novoselov</a>."
+    description: "Completed an 18 months Master degree program in Artificial Intelligence in the National University of Singapore.
+    where I also doubled as a Research Assistant for Physics Nobel Laureate <a href='https://en.wikipedia.org/wiki/Konstantin_Novoselov' target='_blank'>Sir Konstantin Novoselov</a>."
     link:
         url: http://www.nus.edu.sg/
         external: True
@@ -178,7 +178,7 @@ events:
 
   - image: "/img/timeline/web-resp.png"
     date: "July 2017"
-    description: "Started working on Weout project"
+    description: "Started working on WeOut project"
 
 #  - image: "/img/timeline/web-development.png"
 #    date: "July 2017"
@@ -207,10 +207,6 @@ events:
     date: "February 2016"
     description: "Participated and won <a href='http://kpfu.ru/itis/primi-uchastie-v-hakatone-39intellektualnye-186972.html' target='_blank'>KFU ITIS Robotics Hackathon</a>"
 
-  - image: "/img/timeline/inno-uni.jpg"
-    date: "August 2015"
-    description: "Started studying in Innopolis University"
-
 
 # First image of the Timeline
 
@@ -230,7 +226,7 @@ email: "info@ken-dev.info"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Kenneth Nwafor is a software developer with great experience in backend and API development for web services and mobile. He also loves data science. In his free time, he loves  to read books"
+author_blurb: "Kenneth Nwafor is data scientist and software developer with great experience in the industry. He loves to write about tech and life in general."
 author_blurb_image: "/img/author.jpg"
 
 ##################

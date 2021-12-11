@@ -112,4 +112,4 @@ In conclusion, be careful when having code that could fire a signal in a transac
 back but the signal could already be fired before that. In many cases, the signal handler would just be making some other changes to the
 DB which would equally be rolled back, so there is no issue there. The real issue is when you are making external calls like writing something to a file, calling an external service etc.
 
-Chaos!
+Chau!

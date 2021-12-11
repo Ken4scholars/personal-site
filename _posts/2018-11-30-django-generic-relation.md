@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Django Generic Relation - multiple usage in the same model
+title: Django Generic Relation - multi usage in the same model
 category: Django-Tricks
 tags: ['Python', 'Django', 'Database-Models', 'Generic-Relations']
 ---

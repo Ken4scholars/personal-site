@@ -7,13 +7,26 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>The Robot Laws: Reloaded</title>
+				
+				
+					<description>&lt;p&gt;First of all, let me tell you - I do not like to wake up early. In the rare occasions when I do, it is usually out of a great
+necessity. You may wonder what those necessities are, like say, for work? But that is a topic for another day.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 10 Dec 2021 00:00:00 +0300</pubDate>
+				<link>https://ken-dev.info/sci-fi/2021/12/10/the-robot-laws-reloaded.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/sci-fi/2021/12/10/the-robot-laws-reloaded.html</guid>
+			</item>
+		
+			<item>
 				<title>Data Science: The Past, The Present, and The Future</title>
 				
 				
 					<description>&lt;h2 id=&quot;a-glimpse-at-the-future&quot;&gt;A glimpse at the future&lt;/h2&gt;
 </description>
 				
-				<pubDate>Sat, 05 Sep 2020 00:00:00 +0800</pubDate>
+				<pubDate>Sat, 05 Sep 2020 00:00:00 +0300</pubDate>
 				<link>https://ken-dev.info/science/2020/09/05/data-science.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/science/2020/09/05/data-science.html</guid>
 			</item>
@@ -36,7 +49,7 @@ so it is actually nothing new nor is it limited to the framework. The issue is t
 are inbuilt and triggered by the framework, it is usually not obvious when they are used because it is not visible in your code.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 04 Oct 2019 00:00:00 +0800</pubDate>
+				<pubDate>Fri, 04 Oct 2019 00:00:00 +0300</pubDate>
 				<link>https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</guid>
 			</item>
@@ -48,7 +61,7 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 					<description>&lt;h2 id=&quot;the-big-question&quot;&gt;The big question&lt;/h2&gt;
 </description>
 				
-				<pubDate>Thu, 06 Jun 2019 00:00:00 +0800</pubDate>
+				<pubDate>Thu, 06 Jun 2019 00:00:00 +0300</pubDate>
 				<link>https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</guid>
 			</item>
@@ -62,13 +75,13 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 While many of them are based on my activities on each of those days, some are just generic tech stuff.&lt;/p&gt;
 </description>
 				
-				<pubDate>Sat, 05 Jan 2019 00:00:00 +0800</pubDate>
+				<pubDate>Sat, 05 Jan 2019 00:00:00 +0300</pubDate>
 				<link>https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</guid>
 			</item>
 		
 			<item>
-				<title>Django Generic Relation - multiple usage in the same model</title>
+				<title>Django Generic Relation - multi usage in the same model</title>
 				
 				
 					<description>&lt;p&gt;If you have developed web services using &lt;a href=&quot;https://djangoproject.com&quot; target=&quot;\_blank&quot;&gt;Django,&lt;/a&gt; chances are that you 
@@ -78,7 +91,7 @@ in quite handy when you have common traits which can be applied to several model
 which is used as an example in the docs.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 30 Nov 2018 00:00:00 +0800</pubDate>
+				<pubDate>Fri, 30 Nov 2018 00:00:00 +0300</pubDate>
 				<link>https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</guid>
 			</item>
@@ -90,7 +103,7 @@ which is used as an example in the docs.&lt;/p&gt;
 					<description>&lt;p&gt;Since this is my first post on this blog, I figured I need to to give a little background info about myself.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 01 Jun 2018 00:00:00 +0800</pubDate>
+				<pubDate>Fri, 01 Jun 2018 00:00:00 +0300</pubDate>
 				<link>https://ken-dev.info/events/2018/06/01/wfys2017.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/events/2018/06/01/wfys2017.html</guid>
 			</item>
