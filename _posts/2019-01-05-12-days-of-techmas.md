@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: 12 Days Of TechMas
 category: tech-humour
-tags: [ 'tech', 'humour', 'geek', 'xmas']
+tags: [ 'tech', 'humour', 'geek', 'xmas', 'year-end']
 ---
 
 During the Christmas holiday, I collected my own version of the <a href="https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)" target="\_blank">
