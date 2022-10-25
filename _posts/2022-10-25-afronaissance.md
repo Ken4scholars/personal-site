@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: "Afronaissance: Towards and African Cultural Renaissance"
+title: "Afronaissance: Towards an African Cultural Renaissance"
 category: Africa
 tags: [ 'Africa', 'Renaissance', 'Afronaissance', 'culture', 'social']
 ---
