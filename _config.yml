@@ -142,6 +142,13 @@ syntax-highlight: True
 
 events:
 
+  - image: "/img/timeline/acronis.png"
+    date: "August 2021"
+    description: "Joined <a href='https://acronis.com' target='_blank'>Acronis</a> R&D center in Singapore as a Machine Learning Research Engineer"
+    link:
+      url: https://acronis.com
+      external: True
+
   - image: "/img/timeline/nus.jpg"
     date: "July 2021"
     description: "Completed an 18 months Master degree program in Artificial Intelligence in the National University of Singapore.

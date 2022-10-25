@@ -3,8 +3,20 @@
 	<channel>
 		<title>Kenneth Nwafor</title>
 		<description>Website and blog of Kenneth Nwafor</description>
-		<link>https://ken-dev.info</link>
-		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Afronaissance: Towards and African Cultural Renaissance</title>
+				
+				
+					<description>&lt;p&gt;&lt;a href=&quot;../../../../../img/afronaissance/bar.png&quot; data-lightbox=&quot;bar&quot; data-title=&quot;People in a bar&quot;&gt;&lt;img src=&quot;../../../../../img/afronaissance/bar.png&quot; alt=&quot;&quot; class=&quot;&quot; style=&quot;max-width:80%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 25 Oct 2022 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/africa/2022/10/25/afronaissance.html</link>
+				<guid isPermaLink="true">http://localhost:4000/africa/2022/10/25/afronaissance.html</guid>
+			</item>
 		
 			<item>
 				<title>2021 Book Reviews</title>
@@ -15,9 +27,9 @@
 Ohaukwu LGA of Ebonyi state in South Eastern Nigeria which led to the death and displacement of many families including mine.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 31 Dec 2021 00:00:00 +0300</pubDate>
-				<link>https://ken-dev.info/books/2021/12/31/2021-book-reviews.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/books/2021/12/31/2021-book-reviews.html</guid>
+				<pubDate>Fri, 31 Dec 2021 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/books/2021/12/31/2021-book-reviews.html</link>
+				<guid isPermaLink="true">http://localhost:4000/books/2021/12/31/2021-book-reviews.html</guid>
 			</item>
 		
 			<item>
@@ -28,9 +40,9 @@ Ohaukwu LGA of Ebonyi state in South Eastern Nigeria which led to the death and 
 necessity. You may wonder what those necessities are, like say, for work? But that is a topic for another day.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 10 Dec 2021 00:00:00 +0300</pubDate>
-				<link>https://ken-dev.info/sci-fi/2021/12/10/the-robot-laws-reloaded.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/sci-fi/2021/12/10/the-robot-laws-reloaded.html</guid>
+				<pubDate>Fri, 10 Dec 2021 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/sci-fi/2021/12/10/the-robot-laws-reloaded.html</link>
+				<guid isPermaLink="true">http://localhost:4000/sci-fi/2021/12/10/the-robot-laws-reloaded.html</guid>
 			</item>
 		
 			<item>
@@ -40,9 +52,9 @@ necessity. You may wonder what those necessities are, like say, for work? But th
 					<description>&lt;h2 id=&quot;a-glimpse-at-the-future&quot;&gt;A glimpse at the future&lt;/h2&gt;
 </description>
 				
-				<pubDate>Sat, 05 Sep 2020 00:00:00 +0300</pubDate>
-				<link>https://ken-dev.info/science/2020/09/05/data-science.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/science/2020/09/05/data-science.html</guid>
+				<pubDate>Sat, 05 Sep 2020 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/science/2020/09/05/data-science.html</link>
+				<guid isPermaLink="true">http://localhost:4000/science/2020/09/05/data-science.html</guid>
 			</item>
 		
 			<item>
@@ -63,9 +75,9 @@ so it is actually nothing new nor is it limited to the framework. The issue is t
 are inbuilt and triggered by the framework, it is usually not obvious when they are used because it is not visible in your code.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 04 Oct 2019 00:00:00 +0300</pubDate>
-				<link>https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</guid>
+				<pubDate>Fri, 04 Oct 2019 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/django-tricks/2019/10/04/django-signals-in-transaction.html</link>
+				<guid isPermaLink="true">http://localhost:4000/django-tricks/2019/10/04/django-signals-in-transaction.html</guid>
 			</item>
 		
 			<item>
@@ -75,9 +87,9 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 					<description>&lt;h2 id=&quot;the-big-question&quot;&gt;The big question&lt;/h2&gt;
 </description>
 				
-				<pubDate>Thu, 06 Jun 2019 00:00:00 +0300</pubDate>
-				<link>https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</guid>
+				<pubDate>Thu, 06 Jun 2019 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/science/2019/06/06/certainty-vs-uncertainty.html</link>
+				<guid isPermaLink="true">http://localhost:4000/science/2019/06/06/certainty-vs-uncertainty.html</guid>
 			</item>
 		
 			<item>
@@ -89,9 +101,9 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 While many of them are based on my activities on each of those days, some are just generic tech stuff.&lt;/p&gt;
 </description>
 				
-				<pubDate>Sat, 05 Jan 2019 00:00:00 +0300</pubDate>
-				<link>https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</guid>
+				<pubDate>Sat, 05 Jan 2019 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/tech-humour/2019/01/05/12-days-of-techmas.html</link>
+				<guid isPermaLink="true">http://localhost:4000/tech-humour/2019/01/05/12-days-of-techmas.html</guid>
 			</item>
 		
 			<item>
@@ -105,9 +117,9 @@ in quite handy when you have common traits which can be applied to several model
 which is used as an example in the docs.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 30 Nov 2018 00:00:00 +0300</pubDate>
-				<link>https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</guid>
+				<pubDate>Fri, 30 Nov 2018 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/django-tricks/2018/11/30/django-generic-relation.html</link>
+				<guid isPermaLink="true">http://localhost:4000/django-tricks/2018/11/30/django-generic-relation.html</guid>
 			</item>
 		
 			<item>
@@ -117,9 +129,9 @@ which is used as an example in the docs.&lt;/p&gt;
 					<description>&lt;p&gt;Since this is my first post on this blog, I figured I need to to give a little background info about myself.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 01 Jun 2018 00:00:00 +0300</pubDate>
-				<link>https://ken-dev.info/events/2018/06/01/wfys2017.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/events/2018/06/01/wfys2017.html</guid>
+				<pubDate>Fri, 01 Jun 2018 00:00:00 +0800</pubDate>
+				<link>http://localhost:4000/events/2018/06/01/wfys2017.html</link>
+				<guid isPermaLink="true">http://localhost:4000/events/2018/06/01/wfys2017.html</guid>
 			</item>
 		
 	</channel>
