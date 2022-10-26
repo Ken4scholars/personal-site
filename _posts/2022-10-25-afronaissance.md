@@ -59,7 +59,7 @@ One could say it was a period of <i>reflections at the past</i> and <i>looking i
 {% lightbox img/afronaissance/african-renaissance-monument.png --data="monument" --title="The African Renaissance Monument in Dakar, Senegal "  --img-style="max-width:80%;" %}
 
 <i>Afronaissance</i> takes a similar meaning - a period of <i>African Renaissance</i>. This term came to my mind while I was pondering at the similarities between the ongoing cultural
-shift in Africa and the European Renaissance. while changes we are currently witnessing is very far from the magnitude and reach of the renaissance, it is at its very early stages and may take several more
+shift in Africa and the European Renaissance. While the changes we are currently witnessing are very far from the magnitude and reach of the renaissance, it is at its very early stages and may take several more
 decades or even centuries as in the case of the former, to properly crystallize.
 
 #### Contributing factors:
