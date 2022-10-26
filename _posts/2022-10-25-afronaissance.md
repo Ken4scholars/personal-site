@@ -53,7 +53,7 @@ The African consciousness and spirit which has been beaten down by the events of
 The term <i>Renaissance</i> refers to a period of great social change in the European society which marked the transition from the middle ages to modern times.
 The movement was more cultural than economic and is believed to have started in the Italian city of Florence, marked by such great artists and thinkers as Leonardo da Vinci, Michaelangelo, Copernicus, Galileo Galilei etc.
 It was a period of revival and reimagining of Art, Music, Science and Philosophy which had all been left in ruins for close to a millennium of The Dark Ages that followed the fall of the Roman Empire.
-One could say it was a period of <i>reflections at the past</i> and <i>looking inwards</i>
+One could say it was a period of <i>reflections at the past</i> and <i>looking inwards</i>.
 
 
 {% lightbox img/afronaissance/african-renaissance-monument.png --data="monument" --title="The African Renaissance Monument in Dakar, Senegal "  --img-style="max-width:80%;" %}
