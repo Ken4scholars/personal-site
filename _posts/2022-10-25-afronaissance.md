@@ -29,7 +29,7 @@ While music is at the forefront of this cultural revolution, it is not the sole 
 In the past few years, the Nigerian movie industry dubbed <i>Nollywood</i> produced <a href="https://www.theguardian.com/global-development/2021/oct/05/nollywood-booming-while-african-film-industries-could-create-20m-jobs-report" target="_blank"> 
 roughly 2,500 films annually</a>, making it the second biggest 
 movie industry in the world in terms of production capacity, just behind India's Bollywood. Most of these movies do not have a big viewership outside the continent but are gaining popularity within the 
-continent and among the diaspora. Popular streaming platforms like <i>Netflix</i> are also beginning to pay more attention to them and a good number of South African, Nigerian and Kenyan movies among others can be found on 
+continent and among the diaspora. Popular streaming platforms like Netflix are also beginning to pay more attention to them and a good number of South African, Nigerian and Kenyan movies among others can be found on 
 these platforms. The continent is also beginning to export fashion like <i>dashiki</i> and <i>African prints</i> which are donned on their own or mixed with other clothing styles to derive new modern fashion styles.
 
 {% lightbox img/afronaissance/blood-sisters.png --data="Blood Sisters" --title="Blood Sisters movie on Netflix"  --img-style="max-width:80%;" %}
@@ -37,8 +37,8 @@ these platforms. The continent is also beginning to export fashion like <i>dashi
 But why is this important? After all, Africa still has a myriad of other issues like poverty, underdevelopment, poor infrastructure and all the usual negative
 attributes associated with the continent. If you went to the streets of an average Asian/European city and asked random non-Africans what comes to their mind when the word "Africa" is mentioned, you will
 get very similar answers. A few decades back, you would hardly get any response that didn't include the usual 'poverty', 'lack of clean water', 'poor infrastructure' and the like. But this
-narrative is now slightly changing. In the mix of all that, you can now get <i>Afrobeats, good athletes</i> and a few others every once in a while. But of course, it does not just end 
-with changing people's perception of Africa. The reality is that centuries of slavery, colonization and underdevelopment has weighed heavily on the African mind to the extent that he began consciously or unconciously to associate himself with these negative qualities as well. 
+narrative is now slightly changing. In the mix of all that, you can now get 'Afrobeats', 'good athletes' and a few others every once in a while. But of course, it does not just end 
+with changing people's perception of Africa. The reality is that centuries of slavery, colonization and underdevelopment has weighed heavily on the African mind to the extent that he began consciously or unconsciously to associate himself with these negative qualities as well. 
 With a shift in culture that portrays the positive side of the civilization, the downtrodden African mind is equality uplifted and his dignity restored. As Frantz Fannon beautifully put it in <i>The Wretched of the Earth</i> while
 commenting on a speech by president Sékou Touré of Guinea:
 <blockquote> 
@@ -74,7 +74,7 @@ There is a significant increase in the amount of collaborations between continen
 3. Modernization and improvement in the quality of African art forms especially music
 
 4. The modern liberal movement: The liberal movement has promoted interest in non-Western cultures as the "can anything good ever come from Nazareth" concept is being increasingly challenged. Though some friends I had a discussion of the topic with disagreed with this,
-I believe it is a factor worth considering. Without recourse to a debate on the socio-political spectrum, it is merely a fact that many minority movements and in North America and Europe have gained support mostly from the liberal left compared to others among the local populace.
+I believe it is a factor worth considering. Without recourse to a debate on the socio-political spectrum, it is merely a fact that many minority movements in North America and Europe have gained support mostly from the liberal left compared to others among the local populace.
 
 
 The effect of these factors which currently highlight the Afronaissance movement is the increase in popularity of African music and art forms, increased appreciation of the <i>African Identity</i> as more people are proud to showcase
