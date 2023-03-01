@@ -32,6 +32,6 @@
       "type": "image/png"
     }
   ],
-  "start_url": "http://0.0.0.0:4000",
+  "start_url": "https://ken-dev.info",
   "display": "standalone"
 }
