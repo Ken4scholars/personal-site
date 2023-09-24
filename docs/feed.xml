@@ -7,6 +7,24 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Dear Millennials</title>
+				
+				
+					<description>&lt;p&gt;&lt;i&gt;
+Dear Millenials, &lt;br /&gt;
+Born amidst the digital revolution’s gleam,&lt;br /&gt;
+A world at your fingertips, it feels like a dream.&lt;br /&gt;
+But with screens as companions by your side,&lt;br /&gt;
+Do you sometimes wonder what’s been denied?
+&lt;/i&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 25 Sep 2023 00:00:00 +0800</pubDate>
+				<link>https://ken-dev.info/poems/2023/09/25/dear-millennials.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/poems/2023/09/25/dear-millennials.html</guid>
+			</item>
+		
+			<item>
 				<title>Mourning a stolen dream</title>
 				
 				
@@ -130,22 +148,6 @@ While many of them are based on my activities on each of those days, some are ju
 				<pubDate>Sat, 05 Jan 2019 00:00:00 +0800</pubDate>
 				<link>https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</guid>
-			</item>
-		
-			<item>
-				<title>Django Generic Relation - multi usage in the same model</title>
-				
-				
-					<description>&lt;p&gt;If you have developed web services using &lt;a href=&quot;https://djangoproject.com&quot; target=&quot;\_blank&quot;&gt;Django,&lt;/a&gt; chances are that you 
-have come across the &lt;a href=&quot;https://docs.djangoproject.com/en/2.1/ref/contrib/contenttypes/#generic-relations&quot; target=&quot;\_blank&quot;&gt;Generic Relations.&lt;/a&gt;
-It is a technique that allows you to link a model with multiple other models without knowing them before hand. It comes 
-in quite handy when you have common traits which can be applied to several models. A typical example is a &lt;em&gt;tagging&lt;/em&gt; system
-which is used as an example in the docs.&lt;/p&gt;
-</description>
-				
-				<pubDate>Fri, 30 Nov 2018 00:00:00 +0800</pubDate>
-				<link>https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2018/11/30/django-generic-relation.html</guid>
 			</item>
 		
 	</channel>
