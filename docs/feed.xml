@@ -7,6 +7,18 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2023 Year in Books</title>
+				
+				
+					<description>&lt;p&gt;&lt;a href=&quot;../../../../../img/book-review-2023/cover-page1.jpg&quot; data-lightbox=&quot;cover-page1&quot; data-title=&quot;2023 Year in Books&quot;&gt;&lt;img src=&quot;../../../../../img/book-review-2023/cover-page1.jpg&quot; alt=&quot;&quot; class=&quot;&quot; style=&quot;max-width:40%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 31 Dec 2023 00:00:00 +0800</pubDate>
+				<link>https://ken-dev.info/books/2023/12/31/2023-book-reviews.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/books/2023/12/31/2023-book-reviews.html</guid>
+			</item>
+		
+			<item>
 				<title>Dear Millennials</title>
 				
 				
@@ -134,20 +146,6 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 				<pubDate>Thu, 06 Jun 2019 00:00:00 +0800</pubDate>
 				<link>https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</guid>
-			</item>
-		
-			<item>
-				<title>12 Days Of TechMas</title>
-				
-				
-					<description>&lt;p&gt;During the Christmas holiday, I collected my own version of the &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)&quot; target=&quot;\_blank&quot;&gt;
-12 days of Christmas&lt;/a&gt; each day. Actually I have 13 instead of 12, but oh well, you will find out why.
-While many of them are based on my activities on each of those days, some are just generic tech stuff.&lt;/p&gt;
-</description>
-				
-				<pubDate>Sat, 05 Jan 2019 00:00:00 +0800</pubDate>
-				<link>https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/tech-humour/2019/01/05/12-days-of-techmas.html</guid>
 			</item>
 		
 	</channel>
