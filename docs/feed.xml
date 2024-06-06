@@ -7,11 +7,11 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Kolmogorov-Arnorld Networks (KANs) - What&apos;s the fuss about?</title>
+				<title>Kolmogorov-Arnold Networks (KANs) - What&apos;s the fuss about?</title>
 				
 				
 					<description>&lt;p&gt;I was resting after a busy work day some weeks ago when I came across a post about the paper &lt;a href=&quot;https://arxiv.org/abs/2404.19756&quot; target=&quot;\_blank&quot;&gt;KAN: Kolmogorov–Arnold Networks.&lt;/a&gt;
-The paper was not even published yet and there was already more than 8K stars on its &lt;a href=&quot;https://github.com/KindXiaoming/pykan&quot; target=&quot;\_blank&quot;&gt;github repository&lt;/a&gt; in less than a week.
+The paper was not even published yet and there were already more than 8K stars on its &lt;a href=&quot;https://github.com/KindXiaoming/pykan&quot; target=&quot;\_blank&quot;&gt;github repository&lt;/a&gt; in less than a week.
 It seems to have taken the internet by storm and that is all anyone on Data Science LinkedIn seemed to be talking about. 
 Could this really be the next big thing for Deep Learning and AI? Are the “Yet another big LLM with an even bigger context length” model releases every other week getting boring?
 I searched around for simpler but comprehensive explainer articles to digest the paper and couldn’t find one, so I decided to write one.&lt;/p&gt;

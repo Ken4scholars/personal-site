@@ -19,7 +19,7 @@
   <meta name="keywords" content="Tech, Data Science, Machine Learning, Blockchain, Python, Django">
   <meta name="google-site-verification" content="tCbXsmoOkPLWM3caJZcEN86pA9YAC8YViUTKqKg3ciM" />
   <link rel="canonical" href="/data-science/2024/06/06/kans-demystified.html">
-  <title>Kenneth Nwafor | Kolmogorov-Arnorld Networks (KANs) - What's the fuss about?</title>
+  <title>Kenneth Nwafor | Kolmogorov-Arnold Networks (KANs) - What's the fuss about?</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -177,7 +177,7 @@
 <!-- Swipe Instructions End -->
 
 
-          <h1><strong>Kolmogorov-Arnorld Networks (KANs) - What's the fuss about?</strong></h1>
+          <h1><strong>Kolmogorov-Arnold Networks (KANs) - What's the fuss about?</strong></h1>
           <h4>
             <strong>06 Jun 2024</strong>
             <small>
@@ -203,7 +203,7 @@
 
           <section class="text-justify">
             <p>I was resting after a busy work day some weeks ago when I came across a post about the paper <a href="https://arxiv.org/abs/2404.19756" target="\_blank">KAN: Kolmogorov–Arnold Networks.</a>
-The paper was not even published yet and there was already more than 8K stars on its <a href="https://github.com/KindXiaoming/pykan" target="\_blank">github repository</a> in less than a week.
+The paper was not even published yet and there were already more than 8K stars on its <a href="https://github.com/KindXiaoming/pykan" target="\_blank">github repository</a> in less than a week.
 It seems to have taken the internet by storm and that is all anyone on Data Science LinkedIn seemed to be talking about. 
 Could this really be the next big thing for Deep Learning and AI? Are the “Yet another big LLM with an even bigger context length” model releases every other week getting boring?
 I searched around for simpler but comprehensive explainer articles to digest the paper and couldn’t find one, so I decided to write one.</p>
@@ -214,7 +214,7 @@ I searched around for simpler but comprehensive explainer articles to digest the
 
 <p>At the core of every machine learning algorithm is the desire to estimate functions. Given an input, we want a function that returns a desirable output.
 From transactions to customer churn predictions, images to cat/dog classification, etc. The problem then is, how do we define such complex functions?
-In the <em>80s</em>, researchers discovered that theoritically, any function could be approximated by a neural network to some arbitrary accuracy and this became known as the universal approximation theorem.</p>
+In the <em>80s</em>, researchers discovered that theoretically, any function could be approximated by a neural network to some arbitrary accuracy and this became known as the universal approximation theorem.</p>
 <blockquote>
   <p>The Universal Approximation Theorem states that a neural network with at least one hidden layer of a sufficient number of neurons, and a non-linear activation function can approximate any continuous function to an arbitrary level of accuracy.</p>
 
@@ -230,7 +230,7 @@ Mathematically, for a single hidden layer, this can be expressed as:<br />
     <p align="center">
    $$y = \sigma(W x + b)$$
 </p>
-    <p><br />where  \(W\) is a weight matrix,  \(b\) is a bias vectors, and  \(\sigma\)  is a non-linear activation function.</p>
+    <p><br />where  \(W\) is a weight matrix,  \(b\) is a bias vector, and  \(\sigma\)  is a non-linear activation function.</p>
   </li>
   <li><b>Activation Functions</b>: This function introduces non-linearity, enabling the network to model complex relationships in the data. The choice of activation function is crucial and common activation functions include the sigmoid, hyperbolic tangent (tanh), and Rectified Linear Unit (ReLU).</li>
 </ol>
@@ -241,7 +241,7 @@ Mathematically, for a single hidden layer, this can be expressed as:<br />
 
 <p>But here’s the kicker: just having a powerful formula isn’t enough. While we have the formula, we don’t initially know the exact weights and biases needed to make accurate predictions. This is where training comes in.</p>
 
-<p>Training a neural network involves feeding it data and adjusting its parameters (weights and biases) to minimize the error in its predictions. Think of it as teaching a dog new tricks. You start with random behavior, but with consistent training and a lot of treats (in this case, data and optimization), the dog learns to perform the desired tricks accurately.</p>
+<p>Training a neural network involves feeding it data and adjusting its parameters (weights and biases) to minimize the error in its predictions. Think of it as teaching a dog new tricks. You start with random behaviour, but with consistent training and a lot of treats (in this case, data and optimization), the dog learns to perform the desired tricks accurately.</p>
 
 <p>Here’s a step-by-step breakdown of the training process as a refresher:</p>
 
@@ -265,7 +265,7 @@ Mathematically, for a single hidden layer, this can be expressed as:<br />
 </p>
 <p>where  \(\phi_i\)  and  \(\psi_{ij}\)  are continuous functions of one variable.</p>
 
-<p>The Kolmogorov-Arnold Theorem (KAT) is a powerful theoretical tool, stating that any multivariate continuous function can be decomposed into a sum of continuous functions of a single variable. As the authors noted, in KAT, the only truly multivariate function is the sum! However, this decomposition comes with significant limitations, particularly when applied to practical problems in machine learning.</p>
+<p>The Kolmogorov-Arnold Theorem (KAT) is a powerful theoretical tool, stating that any multivariate continuous function can be decomposed into a sum of continuous functions of a single variable. As the authors noted, the only truly multivariate function in KAT is the sum! However, this decomposition comes with significant limitations, particularly when applied to practical problems in machine learning.</p>
 
 <p>One of the main limitations of KAT is the non-smoothness of the decomposed functions. In practice, the functions  \(\phi_i\)  and  \(\psi_{ij}\)  resulting from the KAT decomposition can be highly irregular or non-smooth. This non-smoothness makes these functions difficult to approximate and optimize using standard machine learning techniques. Non-smooth functions can lead to poor convergence rates and instability during training, making the learning process inefficient and less reliable.</p>
 
@@ -292,8 +292,8 @@ Mathematically, for a single hidden layer, this can be expressed as:<br />
   <li><b>Piecewise Polynomials</b>: Splines are constructed from multiple polynomial segments. Each segment is defined over a specific interval of the input space. This segmentation allows splines to handle local variations in the data more effectively than a single global polynomial.</li>
   <li><b>Smooth Transitions</b>: The polynomial segments are stitched together in such a way that the transitions between them are smooth. This smoothness is crucial because it ensures that the overall function remains continuous and differentiable. The KAN architecture takes advantage of this by using B-splines, which are a specific type of spline that provides a high degree of smoothness and flexibility.</li>
   <li><b>Flexibility and Adaptability</b>: By adjusting the coefficients of the polynomial segments, splines can approximate a wide range of shapes and patterns. This flexibility is what makes them so powerful in function approximation. 
-In the context of KAN, splines are used to model the \phi_i and \psi_{ij} functions from the KAT formulation. This means that instead of dealing with potentially rough and jagged KAT functions, KAN uses smooth, continuous splines that are easier to optimize and work with. And what’s more? the number of spline segements can be varied to better fit the function.</li>
-  <li><b>Implementation in KAN</b>: The paper details how KAN implements these splines within the network architecture. Each spline is represented as a linear combination of basis spline functions (B-splines), which are then used to construct the \(\phi_i\) and \(\psi_{ij}\) functions. The coefficients of these basis splines are learned during the training process, allowing the network to adaptively fit the data.</li>
+In the context of KAN, splines are used to model the \(\psi_{ij}\) functions from the KAT formulation. This means that instead of dealing with potentially rough and jagged KAT functions, KAN uses smooth, continuous splines that are easier to optimize and work with. And what’s more? the number of spline segments can be varied to better fit the function.</li>
+  <li><b>Implementation in KAN</b>: The paper details how KAN implements these splines within the network architecture. Each spline is represented as a linear combination of basis spline functions (B-splines), which are then used to construct the \(\psi_{ij}\) functions. The coefficients of these basis splines are learned during the training process, allowing the network to adaptively fit the data.</li>
 </ol>
 
 <h2 id="trainable-activation-on-edges">Trainable Activation on Edges</h2>
@@ -309,7 +309,7 @@ In traditional neural networks, activation functions like ReLU, sigmoid, or tanh
   <li><b>Learning the Activation Functions</b>: The paper describes using splines (piecewise polynomials) to represent these trainable activations. By learning the coefficients of these splines during training, KAN can tailor the activation functions to better fit the underlying patterns in the data. This flexibility allows KAN to capture more complex relationships than fixed activation functions.</li>
 </ol>
 
-<p>To put it simply, The non-linear part of traditional neural networks is fixed and not trainable. Although there are variations like the Parametric ReLU (PReLU) that allows training, it is still very limited as the parameters are global. KANs on the other hand provide fully trainable local non-linear functions for each input.</p>
+<p>To put it simply, The non-linear part of traditional neural networks is fixed and not trainable. Although there are variations like the Parametric ReLU (PReLU) that allow training, it is still very limited as the parameters are global. KANs on the other hand provide fully trainable local non-linear functions for each input.</p>
 
 <h2 id="interpretability-especially-for-science">Interpretability, Especially for Science</h2>
 
@@ -322,18 +322,18 @@ but understanding how they arrive at those predictions can be challenging. This 
   <li><b>Decomposition into Simpler Functions</b>: KAN leverages the Kolmogorov-Arnold Theorem to decompose complex functions into sums of simpler functions. This decomposition means that the network’s decisions can be traced back to these simpler, more understandable functions, making it easier to see how different inputs contribute to the final output. 
    While MLP functions are also decomposable, much of the learning occurs at the multivariate level where activation functions are applied, using only simple linear univariate functions (\(W_ix_i\)). KANs on the other hand learn non-linear B-splines at the univariate level.</li>
   <li><b>Symbolic Formula Extraction</b>: The authors claim they made it possible to recover a symbolic representation of the learned function using SymPy. This will help to discover interesting equations in science.</li>
-  <li><b>Integrating Prior Knowledge</b>: With a knowledge of the problem domain, one can easily design a more fitting KAN. This is often the case in scientific research but not in real life problems. They further developed an algorithm to more easily find a suitable KAN architecture via regularization and pruning.</li>
+  <li><b>Integrating Prior Knowledge</b>: With a knowledge of the problem domain, one can easily design a more fitting KAN. This is often the case in scientific research but not in real-life problems. They further developed an algorithm to more easily find a suitable KAN architecture via regularization and pruning.</li>
 </ol>
 
 <h2 id="summary">Summary</h2>
 <p>The paper presents a lot of innovations to neural networks such as trainable activation functions, non-linear univariate functions in the edges and interpretability. However, the network seems more complex to both implement and train. 
 For \(N\) neurons and \(L\) layers, an MLP’s time complexity is \(O(N^2L)\) while a KAN’s complexity is \(O(N^2LG)\) where \(G\) is the number of segments of the B-spline. The authors report that even though it is more complex than an MLP, a shallower KAN can work better than a corresponding deeper MLP.
-As much as MLPs are the backbones of today’s neural networks, much of the models we build are made with specialized architectures such as CNNs, RNNs etc, and this is partly thanks to the simplicity of MLPs. The success of KANs will depend a lot 
-on whether these specialized architectures can be easily implemented and trained. But I am especially excited for the application of KANs to scientific research and positive that it can be very impactful in that area.</p>
+As much as MLPs are the backbones of today’s neural networks, many of the models we build are made with specialized architectures such as CNNs, RNNs etc. and this is partly thanks to the simplicity of MLPs. The success of KANs will depend a lot 
+on whether these specialized architectures can be easily implemented and trained. However, I am especially excited about the application of KANs to scientific research and positive that it can be very impactful in that area.</p>
 
 <h2 id="references">References</h2>
 <ul>
-  <li><a href="https://rukshanpramoditha.medium.com/">the-intuition-behind-the-universal-approximation-theorem-for-neural-networks-ac4b000bfbfc</a></li>
+  <li><a href="https://rukshanpramoditha.medium.com/">The-intuition-behind-the-universal-approximation-theorem-for-neural-networks-ac4b000bfbfc</a></li>
   <li><a href="https://arxiv.org/pdf/2404.19756">KAN: Kolmogorov–Arnold Networks</a></li>
   <li><a href="https://www.cl.cam.ac.uk/teaching/1999/AGraphHCI/SMAG/node4.html">Primer on B-spines</a></li>
 </ul>
@@ -346,7 +346,7 @@ on whether these specialized architectures can be easily implemented and trained
   <ul class="rrssb-buttons clearfix">
     
       <li class="rrssb-email">
-        <a href="mailto:?subject=Kolmogorov-Arnorld Networks (KANs) - What's the fuss about?&body=https://ken-dev.info/data-science/2024/06/06/kans-demystified.html" data-proofer-ignore>
+        <a href="mailto:?subject=Kolmogorov-Arnold Networks (KANs) - What's the fuss about?&body=https://ken-dev.info/data-science/2024/06/06/kans-demystified.html" data-proofer-ignore>
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
               <path d="M20.11 26.147c-2.335 1.05-4.36 1.4-7.124 1.4C6.524 27.548.84 22.916.84 15.284.84 7.343 6.602.45 15.4.45c6.854 0 11.8 4.7 11.8 11.252 0 5.684-3.193 9.265-7.398 9.3-1.83 0-3.153-.934-3.347-2.997h-.077c-1.208 1.986-2.96 2.997-5.023 2.997-2.532 0-4.36-1.868-4.36-5.062 0-4.75 3.503-9.07 9.11-9.07 1.713 0 3.7.4 4.6.972l-1.17 7.203c-.387 2.298-.115 3.3 1 3.4 1.674 0 3.774-2.102 3.774-6.58 0-5.06-3.27-8.994-9.304-8.994C9.05 2.87 3.83 7.545 3.83 14.97c0 6.5 4.2 10.2 10 10.202 1.987 0 4.09-.43 5.647-1.245l.634 2.22zM16.647 10.1c-.31-.078-.7-.155-1.207-.155-2.572 0-4.596 2.53-4.596 5.53 0 1.5.7 2.4 1.9 2.4 1.44 0 2.96-1.83 3.31-4.088l.592-3.72z"
@@ -359,7 +359,7 @@ on whether these specialized architectures can be easily implemented and trained
     
     
       <li class="rrssb-facebook">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://ken-dev.info/data-science/2024/06/06/kans-demystified.html&title=Kolmogorov-Arnorld Networks (KANs) - What's the fuss about?" class="popup">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://ken-dev.info/data-science/2024/06/06/kans-demystified.html&title=Kolmogorov-Arnold Networks (KANs) - What's the fuss about?" class="popup">
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="29" height="29" viewBox="0 0 29 29"><path d="M26.4 0H2.6C1.714 0 0 1.715 0 2.6v23.8c0 .884 1.715 2.6 2.6 2.6h12.393V17.988h-3.996v-3.98h3.997v-3.062c0-3.746 2.835-5.97 6.177-5.97 1.6 0 2.444.173 2.845.226v3.792H21.18c-1.817 0-2.156.9-2.156 2.168v2.847h5.045l-.66 3.978h-4.386V29H26.4c.884 0 2.6-1.716 2.6-2.6V2.6c0-.885-1.716-2.6-2.6-2.6z"
               class="cls-2" fill-rule="evenodd"/></svg>
@@ -370,7 +370,7 @@ on whether these specialized architectures can be easily implemented and trained
     
     
       <li class="rrssb-twitter">
-        <a href="https://twitter.com/share?url=https://ken-dev.info/data-science/2024/06/06/kans-demystified.html&text=Kolmogorov-Arnorld Networks (KANs) - What's the fuss about?"
+        <a href="https://twitter.com/share?url=https://ken-dev.info/data-science/2024/06/06/kans-demystified.html&text=Kolmogorov-Arnold Networks (KANs) - What's the fuss about?"
         class="popup">
           <span class="rrssb-icon"><svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><path d="M24.253 8.756C24.69 17.08 18.297 24.182 9.97 24.62c-3.122.162-6.22-.646-8.86-2.32 2.702.18 5.375-.648 7.507-2.32-2.072-.248-3.818-1.662-4.49-3.64.802.13 1.62.077 2.4-.154-2.482-.466-4.312-2.586-4.412-5.11.688.276 1.426.408 2.168.387-2.135-1.65-2.73-4.62-1.394-6.965C5.574 7.816 9.54 9.84 13.802 10.07c-.842-2.738.694-5.64 3.434-6.48 2.018-.624 4.212.043 5.546 1.682 1.186-.213 2.318-.662 3.33-1.317-.386 1.256-1.248 2.312-2.4 2.942 1.048-.106 2.07-.394 3.02-.85-.458 1.182-1.343 2.15-2.48 2.71z"/></svg></span>
           <span class="rrssb-text">twitter</span>
@@ -392,7 +392,7 @@ on whether these specialized architectures can be easily implemented and trained
     
     
       <li class="rrssb-reddit">
-        <a href="https://www.reddit.com/submit?url=https://ken-dev.info/data-science/2024/06/06/kans-demystified.html&title=Kolmogorov-Arnorld Networks (KANs) - What's the fuss about?" target="_blank">
+        <a href="https://www.reddit.com/submit?url=https://ken-dev.info/data-science/2024/06/06/kans-demystified.html&title=Kolmogorov-Arnold Networks (KANs) - What's the fuss about?" target="_blank">
           <span class="rrssb-icon">
             <svg xmlns="https://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
               <path d="M11.794 15.316c0-1.03-.835-1.895-1.866-1.895-1.03 0-1.893.866-1.893 1.896s.863 1.9 1.9 1.9c1.023-.016 1.865-.916 1.865-1.9zM18.1 13.422c-1.03 0-1.895.864-1.895 1.895 0 1 .9 1.9 1.9 1.865 1.03 0 1.87-.836 1.87-1.865-.006-1.017-.875-1.917-1.875-1.895zM17.527 19.79c-.678.68-1.826 1.007-3.514 1.007h-.03c-1.686 0-2.834-.328-3.51-1.005-.264-.265-.693-.265-.958 0-.264.265-.264.7 0 1 .943.9 2.4 1.4 4.5 1.402.005 0 0 0 0 0 .005 0 0 0 0 0 2.066 0 3.527-.46 4.47-1.402.265-.264.265-.693.002-.958-.267-.334-.688-.334-.988-.043z"
@@ -672,7 +672,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Kolmogorov-Arnorld Networks (KANs) - What's the fuss about?', 'https://ken-dev.info/data-science/2024/06/06/kans-demystified.html');
+    history.pushState({}, 'Kolmogorov-Arnold Networks (KANs) - What's the fuss about?', 'https://ken-dev.info/data-science/2024/06/06/kans-demystified.html');
   }
 }
 </script>
