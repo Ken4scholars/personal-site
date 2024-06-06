@@ -7,6 +7,22 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Kolmogorov-Arnorld Networks (KANs) - What&apos;s the fuss about?</title>
+				
+				
+					<description>&lt;p&gt;I was resting after a busy work day some weeks ago when I came across a post about the paper &lt;a href=&quot;https://arxiv.org/abs/2404.19756&quot; target=&quot;\_blank&quot;&gt;KAN: Kolmogorov–Arnold Networks.&lt;/a&gt;
+The paper was not even published yet and there was already more than 8K stars on its &lt;a href=&quot;https://github.com/KindXiaoming/pykan&quot; target=&quot;\_blank&quot;&gt;github repository&lt;/a&gt; in less than a week.
+It seems to have taken the internet by storm and that is all anyone on Data Science LinkedIn seemed to be talking about. 
+Could this really be the next big thing for Deep Learning and AI? Are the “Yet another big LLM with an even bigger context length” model releases every other week getting boring?
+I searched around for simpler but comprehensive explainer articles to digest the paper and couldn’t find one, so I decided to write one.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 06 Jun 2024 00:00:00 +0800</pubDate>
+				<link>https://ken-dev.info/data-science/2024/06/06/kans-demystified.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/data-science/2024/06/06/kans-demystified.html</guid>
+			</item>
+		
+			<item>
 				<title>2023 Year in Books</title>
 				
 				
@@ -134,18 +150,6 @@ are inbuilt and triggered by the framework, it is usually not obvious when they 
 				<pubDate>Fri, 04 Oct 2019 00:00:00 +0800</pubDate>
 				<link>https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</guid>
-			</item>
-		
-			<item>
-				<title>Certainty Versus Uncertainty</title>
-				
-				
-					<description>&lt;h2 id=&quot;the-big-question&quot;&gt;The big question&lt;/h2&gt;
-</description>
-				
-				<pubDate>Thu, 06 Jun 2019 00:00:00 +0800</pubDate>
-				<link>https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/science/2019/06/06/certainty-vs-uncertainty.html</guid>
 			</item>
 		
 	</channel>

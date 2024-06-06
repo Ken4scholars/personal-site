@@ -183,9 +183,9 @@ events:
     date: "August 2017"
     description: "Graduated from Innopolis University"
 
-  - image: "/img/timeline/web-resp.png"
-    date: "July 2017"
-    description: "Started working on WeOut project"
+#  - image: "/img/timeline/web-resp.png"
+#    date: "July 2017"
+#    description: "Started working on WeOut project"
 
 #  - image: "/img/timeline/web-development.png"
 #    date: "July 2017"

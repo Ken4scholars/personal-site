@@ -40,15 +40,15 @@ The loopholes in the laws are often seen in the works of Asimov himself that he 
 This zeroth law which supersedes the other laws is even more ambiguous. What do we regard as humanity? Would it be okay to kill all the criminals to keep humanity safe?
 Would it be okay to keep humanity _uncomfortable_ just to ensure it is _safe_? This is exactly what the robots in _I, Robot_ did: they created an oppressive state that ensured minimal _collective_ harm 
 to the society but that obviously was very uncomfortable for humans and takes away some of our freedoms and choices. As a matter of fact, humans sometimes if not most,
-prefer freedom of choice to protection as is examplified in the new  liberal movement. A common theme seen in _The Matrix_ and other works, is when robots decide that humans are harmful to themselves and would be much happier in a fake virtual _utopia_
-where they live almost programmed lives. The zeroth law while ambitious, gives a lot of power to the robots which essentially allows them ignore the rest of the laws and take the fate of humanity into their hands.
+prefer freedom of choice to protection as is examplified in the new  liberal movement. A common theme seen in _The Matrix_ and other works, is that robots often conclude that humans are harmful to themselves and would be much happier in a fake virtual _utopia_
+where they live almost programmed lives. The zeroth law while ambitious, gives a lot of power to the robots which essentially allows them to ignore the rest of the laws and take the fate of humanity into their hands.
 
 ## The new laws
 
-The quick solutions that came to my mind on that fateful morning tries to curb the excesses of the robots under the zeroth law while also taking our current technological realities into consideration.
+The quick solutions that came to my mind on that fateful morning try to curb the excesses of the robots under the zeroth law while also taking our current technological realities into consideration.
 
 The laws are:
-1.  A single robot should not be in stronger in fighting power than an average human.
+1.  A single robot should not be stronger in fighting power than an average human.
 2.  A single robot should not be allowed to communicate or seek reinforcement from more than _n_ robots(_n_ can be determined based on the situation but a good default can be 20).
 3.  A robot-to-robot message cannot be propagated more than _m_ times to avoid more reinforcements(_m_ can be set to 2 for a start).
 4.  A single robot can only make _r_ number of other robots(_r_ can also be set to 2).
@@ -62,7 +62,7 @@ These laws effectively limit the fighting power of each individual robot and the
 
 Come to think of it, I just realised I had the dream just after Elon made his announcement of the Tesla humanoid robot! But of course! Elon was our last line of defence against these human-hating-but-most-times-useful beings!
 
-Of course these laws introduces some limits that may lower the efficiency of robots such as the ability of self-driving cars to communicate and coordinate their navigation, so there is a tradeoff. I acknowledged that even in my
+Of course these laws introduce some limits that may lower the efficiency of robots such as the ability of self-driving cars to communicate and coordinate their navigation, so there is a tradeoff. I acknowledged that even in my
 half-asleep state while scribing the laws in my notebook. So we will have to figure out a away to balance the tradeoffs especially by varying the parameters in the laws.
 
 Phew! Now we can all have a good sleep knowing our grandkids will be safe from these _evil_ beings (are they though?).
