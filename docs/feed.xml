@@ -7,6 +7,18 @@
 		<atom:link href="https://ken-dev.info/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Are we losing the human touch?</title>
+				
+				
+					<description>&lt;p&gt;&lt;a href=&quot;../../../../../img/human-touch/human-touch.png&quot; data-lightbox=&quot;human-touch&quot; data-title=&quot;Human Touch by &amp;lt;i&amp;gt;Kenneth Nwafor&amp;lt;/i&amp;gt; &quot;&gt;&lt;img src=&quot;../../../../../img/human-touch/human-touch.png&quot; alt=&quot;&quot; class=&quot;&quot; style=&quot;max-width:80%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 01 Feb 2025 00:00:00 +0800</pubDate>
+				<link>https://ken-dev.info/speeches/2025/02/01/are-we-losing-the-human-touch.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/speeches/2025/02/01/are-we-losing-the-human-touch.html</guid>
+			</item>
+		
+			<item>
 				<title>Kolmogorov-Arnold Networks (KANs) - What&apos;s the fuss about?</title>
 				
 				
@@ -48,8 +60,8 @@ Do you sometimes wonder what’s been denied?
 </description>
 				
 				<pubDate>Mon, 25 Sep 2023 00:00:00 +0800</pubDate>
-				<link>https://ken-dev.info/poems/2023/09/25/dear-millennials.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/poems/2023/09/25/dear-millennials.html</guid>
+				<link>https://ken-dev.info/speeches/2023/09/25/dear-millennials.html</link>
+				<guid isPermaLink="true">https://ken-dev.info/speeches/2023/09/25/dear-millennials.html</guid>
 			</item>
 		
 			<item>
@@ -127,29 +139,6 @@ necessity. You may wonder what those necessities are, like say, for work? But th
 				<pubDate>Sat, 05 Sep 2020 00:00:00 +0800</pubDate>
 				<link>https://ken-dev.info/science/2020/09/05/data-science.html</link>
 				<guid isPermaLink="true">https://ken-dev.info/science/2020/09/05/data-science.html</guid>
-			</item>
-		
-			<item>
-				<title>Django Post-save Signal in a Transaction</title>
-				
-				
-					<description>&lt;p&gt;So let’s assume you have this cool Django project that uses &lt;a href=&quot;https://docs.djangoproject.com/en/2.2/topics/signals/&quot; target=&quot;\_blank&quot;&gt;signals&lt;/a&gt;
-to achieve loose coupling between different parts of your code and across apps. There’s been
-quite a lot of arguments against signals but you will agree with me that it does make things
-clean especially when it comes to communication across apps. The major argument against it being
-that it makes code less readable as it is not readily obvious where some action is performed 
-after a signal is fired. This is quite true, especially when you start working on an existing project 
-and you have to navigate through the code to find out where a particular functionality is implemented.
-Direct function calls are usually more obvious and readable but can also lead to too much dependency and coupling
-between different parts of your code. The Django signals system is an implementation of the popular
-&lt;a href=&quot;https://abdulapopoola.com/2013/03/12/design-patterns-pub-sub-explained/&quot; target=&quot;\_blank&quot;&gt;publisher/subscriber&lt;/a&gt; (or just pubsub) design pattern
-so it is actually nothing new nor is it limited to the framework. The issue is that because most of popular signals (say hello to &lt;a href=&quot;https://docs.djangoproject.com/en/2.2/ref/signals/#django.db.models.signals.post_save&quot; target=&quot;\_blank&quot;&gt;post_save&lt;/a&gt;)
-are inbuilt and triggered by the framework, it is usually not obvious when they are used because it is not visible in your code.&lt;/p&gt;
-</description>
-				
-				<pubDate>Fri, 04 Oct 2019 00:00:00 +0800</pubDate>
-				<link>https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</link>
-				<guid isPermaLink="true">https://ken-dev.info/django-tricks/2019/10/04/django-signals-in-transaction.html</guid>
 			</item>
 		
 	</channel>

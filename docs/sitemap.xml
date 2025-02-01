@@ -60,6 +60,10 @@
     
   
     
+  
+    
+  
+    
       <url>
         <loc>https://ken-dev.info/blog/</loc>
         
@@ -83,6 +87,12 @@
           
         
        </url>
+    
+  
+    
+  
+    
+  
     
   
     
@@ -191,6 +201,15 @@
   
   
     <url>
+      <loc>https://ken-dev.info/speeches/2025/02/01/are-we-losing-the-human-touch.html</loc>
+      
+        <lastmod>2025-02-01T00:00:00+08:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
       <loc>https://ken-dev.info/data-science/2024/06/06/kans-demystified.html</loc>
       
         <lastmod>2024-06-06T00:00:00+08:00</lastmod>
@@ -209,7 +228,7 @@
     </url>
   
     <url>
-      <loc>https://ken-dev.info/poems/2023/09/25/dear-millennials.html</loc>
+      <loc>https://ken-dev.info/speeches/2023/09/25/dear-millennials.html</loc>
       
         <lastmod>2023-09-25T00:00:00+08:00</lastmod>
       

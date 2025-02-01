@@ -2,8 +2,8 @@
 layout: post
 section-type: post
 title: Dear Millennials
-category: poems
-tags: ['poems', 'millennials', 'toastmasters']
+category: speeches
+tags: ['poems', 'millennials', 'speeches', 'toastmasters']
 ---
 
 <i>
